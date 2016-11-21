@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+.page_preference header,.page_preference header img,.page_preference .banner,.banner img{
+	width: 100%;
+	height: auto;
+}
+.page_preference header{
+	position: relative;
+}
+.page_preference header a:first-of-type{
+	position:absolute;
+	bottom: 0.3rem;
+    left: 0rem;
+    width: 4.23745rem;
+    height: 1.08749rem;
+    z-index: 2;
+}
+.page_preference header a:last-of-type{
+	position:absolute;
+	bottom: 0.3rem;
+    right: 0.1875rem;
+    width: 4.23745rem;
+    height: 1.08749rem;
+    z-index: 2;
+}
+.page_preference section{
+	background-color: #0a62a9;
+}
+.page_preference section h3,section h3 img{
+	width: 100%;
+	height: auto;
+}
+.page_preference section ul{
+	width: 100%;
+	height: auto;
+}
+.page_preference section ul li{
+	width: 100%;
+	height: auto;
+	padding-bottom: 0.3rem;
+}
+.page_preference section ul li img{
+	width: 100%;
+	height: auto;
+}
+.page_preference section div{
+	width: 100%;
+	height: auto;
+}
+.page_preference section div img{
+	width: 100%;
+	height: auto;
+}
+.page_preference .seckill{
+	padding-bottom: 0.74999rem;
+}
+
+.page_preference #hungBar{
+	width: 2.69997rem;
+	height: 5.66693rem;
+	position: fixed;
+	bottom: .5rem;
+    left: .5rem;
+    z-index: 99;
+}
+.page_preference #hungBar div{
+	width: 2.69997rem;
+	height: 2.69997rem;
+	
+	background:rgba(255,255,255,0.8) url(../../../images/home/icon_hungBar.png) no-repeat;
+	border-radius: 100%;
+	border:1px solid #eee;
+	background-size: 2.69997rem auto;
+}
+.page_preference #hungBar .backHome{
+	background-position:0 0;
+}
+.page_preference #hungBar #backTop{
+	margin-top: 0.28125rem;
+	background-position:0 -2.96696rem;
+}
+footer{
+	display: none;
+}

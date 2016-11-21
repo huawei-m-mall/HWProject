@@ -1,0 +1,143 @@
+/*全局*/
+
+/*body,html {
+	width: 100%;
+	background: #f7f7f7;
+}*/
+@charset "utf-8";
+
+.v_code {
+	font-size: .7rem
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight: normal;
+}
+
+.v_code>header,
+.v_code>section,
+.v_code>div {
+	width: 100%
+}
+
+
+/*头部*/
+
+.v_code header {
+	height: 2.39997rem;
+	background: #eee
+}
+
+.v_code header a {
+	float: left;
+	width: 2.25rem;
+	height: 100%;
+	background: transparent url(../../../images/home/vCode/icon11_1.png) scroll no-repeat 50% 50%;
+	background-size: .45rem .8rem;
+}
+
+.v_code header div {
+	width: 40%;
+	text-align: center;
+	margin: 0 auto;
+	line-height: 2.39997rem
+}
+
+
+/*登录部分*/
+
+.v_code table {
+	margin: 0.374995rem 1rem
+}
+
+.v_code table input {
+	border-radius: .72rem;
+	-webkit-border-radius: .72rem;
+}
+
+.v_code td {
+	text-align: center;
+}
+
+.v_code tr:first-of-type td {
+	padding: 0.674995rem 0;
+	width: 85%
+}
+
+.vCode {
+	text-align: left;
+	padding: .5rem;
+	outline: 0;
+	font-size: .7rem;
+	letter-spacing: .1rem;
+	width: 100%;
+	height: 2.249972rem;
+	border: 1px solid #ccc;
+}
+
+.v_code tr:last-of-type td:first-of-type {
+	width: 35%
+}
+
+.v_code tr:last-of-type td:last-of-type {
+	text-align: left;
+}
+
+.v_code td a {
+	color: #16aece;
+	text-decoration: underline;
+}
+
+.v_code .checkCode {
+	text-align: left;
+	padding: .5rem;
+	outline: 0;
+	font-size: .7rem;
+	letter-spacing: .1rem;
+	width: 100%;
+	height: 2.249972rem;
+	border: 1px solid #ccc;
+}
+
+.v_code td img {
+	width: 70%
+}
+
+.v_code input[type=submit] {
+	display: block;
+	width: 88%;
+	font-size: .7rem;
+	height: 2.2rem;
+	background-color: #ca151e;
+	border: 1px solid #cc0a0d;
+	color: #fff;
+	line-height: 1.95rem;
+	border-radius: .5rem;
+	text-align: center;
+	min-width: 2.05rem;
+	margin: 1.549983rem auto
+}
+
+
+/*介绍文字*/
+
+.v_code .text {
+	padding: 0 1.149991rem
+}
+
+.v_code .text h3 {
+	color: #414141;
+	font-size: .75rem;
+	font-weight: bold;
+	margin-top: 0.562493rem
+}
+
+.v_code .text p {
+	color: #878787;
+	font-size: .6rem;
+	line-height: 1.333;
+	padding-top: .25rem;
+}
+footer{
+	display: none;
+}

@@ -161,7 +161,7 @@
 	/*flex-grow:1;*/
 	width:15.5rem;
 	height: 100%;
-	background: url(../../images/icon_notice.png) no-repeat 0.44999rem center;
+	background: url(../../images/home/icon_notice.png) no-repeat 0.44999rem center;
 	background-size: 0.79979rem 0.79979rem;
 	padding-left: 1.68748rem;
 	font-size: 0.59999rem;
@@ -392,7 +392,7 @@
     border-radius: 50%;
     width: 1.95rem;
     height: 1.95rem;
-    background:rgba(0,0,0,.3) url(../../images/top.png) no-repeat center center;
+    background:rgba(0,0,0,.3) url(../../images/home/top.png) no-repeat center center;
      background-size: 100% 100%;
     position: fixed;
     z-index: 103;

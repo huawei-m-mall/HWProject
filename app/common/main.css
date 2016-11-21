@@ -36,7 +36,7 @@ footer a dl dt{
     width: 1.2rem;
     display: block;
     margin: 0 auto;
-    background: url(../images/footer_icon.png) no-repeat ;
+    background: url(../images/home/footer_icon.png) no-repeat ;
     background-size: auto 3rem;
 }
 footer a:first-of-type dl dt{
