@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+.page_real_name{
+	font-size: 0.52499rem;
+	background-color: #f7f7f7;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.page_real_name header{
+	background-color: #eee;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: 0 auto;
+    z-index: 100;
+    border-bottom: 1px solid #c7c7c7;
+    height: 2.43747rem;
+}
+.page_real_name header>a{
+	display: inline-block;
+	width: 2.24997rem;
+	height: 100%;
+	background: url(../../../images/icon11_1.png) no-repeat  center center;
+	background-size:.45rem .8rem;
+	position: absolute;
+}
+.page_real_name header p{
+    width: 45%;
+    margin: 0 auto;
+    height: 2.39997rem;
+    line-height: 2.39997rem;
+    font-size: .7rem;
+    color: #333;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.page_real_name .noticeDetails{
+	padding: 0 .8rem;
+	margin-top: 2.43747rem;
+}
+.page_real_name .noticeDetails>h3{
+	width: 100%;
+	height:2.43747rem;
+	padding: .5rem 0 .3rem;
+    border-bottom: 1px solid #eee;
+    font-weight: normal;
+    line-height: 1;
+}
+.page_real_name .p-title{
+	font-size: .7rem;
+    line-height: 1.3;
+}
+.page_real_name .p-time{
+	font-size: .55rem;
+    color: #888;
+    padding-top: .3rem;
+}
+.page_real_name .content{
+	padding: 0.3rem 0;
+	line-height: 1.5rem;
+}
+.page_real_name .content p{
+	text-align: left;
+    line-height: 1.5rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.page_real_name .content  img:first-of-type{
+	width: 100%;
+	height: auto;
+}
+.page_real_name .enter{
+	color: red;
+}
+.page_real_name .email{
+	text-decoration: underline;
+}
+.page_real_name .flow{
+	padding-left: 0.89999rem;
+}
+.page_real_name .content .flow img{
+	width: 15.48731rem;
+    height: 8.69989rem;
+}
+footer{
+	display: none;
+}

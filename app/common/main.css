@@ -1,0 +1,89 @@
+html,body{
+	width: 100%;
+	height: 100%;
+}
+body{
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	overflow-y: auto;
+	background: #eee;
+}
+footer{
+	width: 100%;
+	height: 2.5rem;
+	display: flex;
+	background: #fff;
+	position: fixed;
+	bottom:0;
+	left:0;
+	border-top: 1px solid #eee;
+	z-index: 100;
+}
+footer a{
+	text-decoration: none;
+	flex:1;
+	font-size: 0.52499rem;
+	line-height:1.657497rem;
+}
+footer a dl{
+	width:100%;
+	height: 100%;
+	padding-top: 0.25rem;
+}
+footer a dl dt{
+    height: 1.2rem;
+    width: 1.2rem;
+    display: block;
+    margin: 0 auto;
+    background: url(../images/footer_icon.png) no-repeat ;
+    background-size: auto 3rem;
+}
+footer a:first-of-type dl dt{
+	background-position: -.15rem -0.15rem;
+}
+footer a:nth-of-type(2) dl dt{
+	background-position: -1.65rem -0.15rem;
+}
+footer a:nth-of-type(3) dl dt{
+	background-position: -3.15rem -0.15rem;
+}
+footer a:nth-of-type(4) dl dt{
+	background-position: -4.65rem -0.15rem;
+}
+footer a:nth-of-type(5) dl dt{
+	background-position: -6.15rem -0.15rem;
+}
+
+.active{
+	color: #ca151e;
+}
+.active:first-of-type dl dt{
+	background-position: -0.15rem -1.65rem;
+	
+}
+.active:nth-of-type(2)  dl dt{
+	background-position: -1.65rem -1.65rem;
+
+}
+.active:nth-of-type(3) dl dt{
+	background-position: -3.15rem -1.65rem;
+
+}
+.active:nth-of-type(4) dl dt{
+	background-position: -4.65rem -1.65rem;
+
+}
+.active:nth-of-type(5) dl dt{
+	background-position: -6.15rem -1.65rem;
+
+}
+
+
+footer a dl dd{
+	width:100%;
+	height: 2rem;
+	line-height:2;
+	text-align: center;
+	font-size: .5rem;
+}
