@@ -1,0 +1,425 @@
+{
+	"精品推荐":{
+		"proList":[
+			{
+				"name":"荣耀8",
+				"img":"http://res0.vmallres.com/pimages//product/6901443143009/428_428_1476788633423mp.jpg",
+				"tag":"爆款",
+				"promotion":"送价值49元保护壳",
+				"price":"¥2299"
+			},
+			{
+				"name":"HUAWEI P9 Plus",
+				"img":"http://res1.vmallres.com/pimages//product/6901443128167/428_428_1467186231773mp.jpg",
+				"tag":"",
+				"promotion":"128GB版享压感体验",
+				"price":"¥4388"
+			},
+			{
+				"name":"荣耀 NOTE 8",
+				"img":"http://res2.vmallres.com/pimages//product/6901443137640/428_428_1469697001414mp.jpg",
+				"tag":"",
+				"promotion":"2K大屏长续航",
+				"price":"¥2499"
+			},
+			{
+				"name":"荣耀畅玩6X",
+				"img":"http://res3.vmallres.com/pimages//product/6901443151257/428_428_1476673497303mp.jpg",
+				"tag":"新品",
+				"promotion":"双镜头 大内存 长续航",
+				"price":"¥1099"
+			},
+			{
+				"name":"荣耀畅玩5A",
+				"img":"http://res4.vmallres.com/pimages//frontLocation/content/775255/1474557254378.jpg",
+				"tag":"热卖",
+				"promotion":"青春好拍档",
+				"price":"¥699"
+			},
+			{
+				"name":"华为畅享6",
+				"img":"http://res5.vmallres.com/pimages//product/6901443145614/428_428_1476776465182mp.jpg",
+				"tag":"",
+				"promotion":"充沛电力  指纹识别",
+				"price":"¥1299"
+			},
+			{
+				"name":"荣耀畅玩5X",
+				"img":"http://res6.vmallres.com/pimages//frontLocation/content/775277/1474557391328.jpg",
+				"tag":"",
+				"promotion":"金属 指纹",
+				"price":"¥1099"
+			},
+			{
+				"name":"HUAWEI 畅享5S",
+				"img":"http://res7.vmallres.com/pimages//frontLocation/content/775295/1474557528012.jpg",
+				"tag":"",
+				"promotion":"轻薄金属机身",
+				"price":"¥1099"
+			},
+			{
+				"name":"HUAWEI Mate 8",
+				"img":"http://res8.vmallres.com/pimages//product/6901443101153/428_428_1468899801017mp.jpg",
+				"tag":"",
+				"promotion":"执念  是一种信仰",
+				"price":"¥2799"
+			},
+			{
+				"name":"荣耀畅玩5",
+				"img":"http://res9.vmallres.com/pimages//frontLocation/content/775285/1474557464550.jpg",
+				"tag":"热卖",
+				"promotion":"惊艳小屏",
+				"price":"¥599"
+			},
+			{
+				"name":"HUAWEI 麦芒5",
+				"img":"http://res0.vmallres.com/pimages//product/6901443137008/428_428_1467859758751mp.jpg",
+				"tag":"",
+				"promotion":"光学防抖 持久续航",
+				"price":"¥2399"
+			},
+			{
+				"name":"G9 青春版",
+				"img":"http://res1.vmallres.com/pimages//product/6901443139095/428_428_1470205299986mp.jpg",
+				"tag":"",
+				"promotion":"轻薄 指纹",
+				"price":"¥1599"
+			},
+			{
+				"name":"荣耀手表 S1",
+				"img":"http://res2.vmallres.com/pimages//frontLocation/content/922165/1478144416197.jpg",
+				"tag":"新品",
+				"promotion":"购新机 评价赢好礼",
+				"price":"¥699"
+			},
+			{
+				"name":"华为儿童手表",
+				"img":"http://res3.vmallres.com/pimages//frontLocation/content/922169/1478144646074.jpg",
+				"tag":"",
+				"promotion":"防尘防水防辐射",
+				"price":"¥688"
+			},
+			{
+				"name":"华为路由 A1",
+				"img":"http://res4.vmallres.com/pimages//frontLocation/content/922171/1479346665640.jpg",
+				"tag":"",
+				"promotion":"双千兆大户型路由",
+				"price":"¥399"
+			},
+			{
+				"name":"荣耀盒子Pro",
+				"img":"http://res5.vmallres.com/pimages//frontLocation/content/922167/1478144510574.jpg",
+				"tag":"",
+				"promotion":"智能语音 跨屏续播",
+				"price":"¥399"
+			},
+			{
+				"name":"荣耀移动电源",
+				"img":"http://res6.vmallres.com/pimages//frontLocation/content/922175/1478145757635.png",
+				"tag":"热卖",
+				"promotion":"匠心工艺 多重防护",
+				"price":"¥169"
+			},
+			{
+				"name":"华为排插快充版",
+				"img":"http://res7.vmallres.com/pimages//product/6901443146215/428_428_1474190781453mp.jpg",
+				"tag":"热卖",
+				"promotion":"9V快充 3C认证",
+				"price":"¥149"
+			}
+		],
+	"adImg":"http://res.vmallres.com/pimages//sale/2016-11/20161116003446123.jpg"
+	},
+	"笔记本&平板":{
+		"proList":[
+			{
+				"name":"华为平板 M3",
+				"img":"http://res0.vmallres.com/pimages//frontLocation/content/775169/1479435846166.jpg",
+				"tag":"热卖",
+				"promotion":"2K高清屏 HI-FI音效",
+				"price":"¥1888"
+			},
+			{
+				"name":"荣耀平板2",
+				"img":"http://res1.vmallres.com/pimages//frontLocation/content/775213/1476785750186.jpg",
+				"tag":"新品",
+				"promotion":"购新品 评价赢好礼",
+				"price":"¥999"
+			},
+			{
+				"name":"荣耀畅玩平板",
+				"img":"http://res2.vmallres.com/pimages//frontLocation/content/870917/1477278943587.jpg",
+				"tag":"",
+				"promotion":"LTE版新品 双4G通话",
+				"price":"¥799"
+			},
+			{
+				"name":"华为 M2 8英寸平板电脑",
+				"img":"http://res3.vmallres.com/pimages//frontLocation/content/775195/1479113243617.jpg",
+				"tag":"",
+				"promotion":"麒麟930 哈曼卡顿音效",
+				"price":"¥1288"
+			},
+			{
+				"name":"华为 M2 10.0 平板电脑",
+				"img":"http://res4.vmallres.com/pimages//frontLocation/content/871173/1478249422420.jpg",
+				"tag":"",
+				"promotion":"四颗扬声器 指纹识别",
+				"price":"¥3288"
+			},
+			{
+				"name":"华为 M2 青春版 7.0英寸",
+				"img":"http://res5.vmallres.com/pimages//frontLocation/content/775203/1477966364009.png",
+				"tag":"",
+				"promotion":"高清大屏 侧边指纹",
+				"price":"¥1599"
+			},
+			{
+				"name":"荣耀畅玩平板note",
+				"img":"http://res6.vmallres.com/pimages//frontLocation/content/775227/1474556925605.jpg",
+				"tag":"",
+				"promotion":"9.6英寸IPS高清屏幕",
+				"price":"¥999"
+			},
+			{
+				"name":"华为 M2 青春版 10.1英寸",
+				"img":"http://res7.vmallres.com/pimages//frontLocation/content/775219/1474556899094.jpg",
+				"tag":"",
+				"promotion":"出色续航 纯净音质",
+				"price":"¥1899"
+			}
+		],
+		"adImg":"http://res.vmallres.com/pimages//sale/2016-11/20161114184147309.jpg"
+	},
+	"智能穿戴":{
+		"proList":[
+			{
+				"name":"华为手环 B3",
+				"img":"http://res0.vmallres.com/pimages//frontLocation/content/774885/1474556011912.jpg",
+				"tag":"",
+				"promotion":"腕上私语 动静随心",
+				"price":"¥1199"
+			},
+			{
+				"name":"荣耀小K儿童通话手表",
+				"img":"http://res1.vmallres.com/pimages//frontLocation/content/774901/1474556375166.jpg",
+				"tag":"",
+				"promotion":"双向通话 安全定位",
+				"price":"¥488"
+			},
+			{
+				"name":"HUAWEI WATCH",
+				"img":"http://res2.vmallres.com/pimages//frontLocation/content/774897/1478881698379.png",
+				"tag":"",
+				"promotion":"智芯•致永恒",
+				"price":"¥1988"
+			},
+			{
+				"name":"荣耀手环zero",
+				"img":"http://res3.vmallres.com/pimages//frontLocation/content/774887/1474556050716.jpg",
+				"tag":"",
+				"promotion":"严苛防水设计 运动无极限",
+				"price":"¥319"
+			},
+			{
+				"name":"华为手环 B2",
+				"img":"http://res4.vmallres.com/pimages//frontLocation/content/774893/1478881989106.png",
+				"tag":"",
+				"promotion":"腕上私语 言行合一",
+				"price":"¥999"
+			},
+			{
+				"name":"HUAWEI WATCH",
+				"img":"http://res5.vmallres.com/pimages//frontLocation/content/858989/1476782426037.jpg",
+				"tag":"",
+				"promotion":"蓝牙通话 健康监测",
+				"price":"¥3888"
+			}
+		],
+		"adImg":"http://res.vmallres.com/pimages//sale/2016-11/20161115175206287.jpg"
+	},
+	"智能家居":{
+		"proList":[
+			{
+				"name":"荣耀WiFi穿墙宝",
+				"img":"http://res0.vmallres.com/pimages//frontLocation/content/775867/1474559270781.jpg",
+				"tag":"",
+				"promotion":"插座变热点 信号变满格",
+				"price":"¥255"
+			},
+			{
+				"name":"华为路由 A1 Lite",
+				"img":"http://res1.vmallres.com/pimages//frontLocation/content/842865/1477273375306.jpg",
+				"tag":"",
+				"promotion":"安全好用450M无线路由",
+				"price":"¥149"
+			},
+			{
+				"name":"荣耀路由",
+				"img":"http://res2.vmallres.com/pimages//frontLocation/content/775869/1474559302633.jpg",
+				"tag":"",
+				"promotion":"双频WiFi无线传输不卡顿",
+				"price":"¥159"
+			},
+			{
+				"name":"华为随行WiFi Pro",
+				"img":"http://res3.vmallres.com/pimages//frontLocation/content/775865/1479346599749.jpg",
+				"tag":"",
+				"promotion":"国内4G三网通",
+				"price":"¥799"
+			},
+			{
+				"name":"华为盒子",
+				"img":"http://res4.vmallres.com/pimages//frontLocation/content/775871/1477879478447.jpg",
+				"tag":"",
+				"promotion":"4K高清网络机顶盒",
+				"price":"¥389"
+			},
+			{
+				"name":"荣耀盒子voice",
+				"img":"http://res5.vmallres.com/pimages//frontLocation/content/794539/1474882305651.jpg",
+				"tag":"",
+				"promotion":"4K画质 海量影视",
+				"price":"¥189"
+			},
+			{
+				"name":"荣耀盒子 标准版",
+				"img":"http://res6.vmallres.com/pimages//frontLocation/content/950705/1479089938743.jpg",
+				"tag":"",
+				"promotion":"4核专业媒体芯片",
+				"price":"¥248"
+			},
+			{
+				"name":"荣耀路由Pro",
+				"img":"http://res7.vmallres.com/pimages//frontLocation/content/950707/1478884347286.jpg",
+				"tag":"",
+				"promotion":"双千兆网速 大户型覆盖",
+				"price":"¥328"
+			}
+		],
+		"adImg":"http://res.vmallres.com/pimages//sale/2016-11/20161118174329771.jpg"
+	},
+	"热销配件":{
+		"proList":[
+			{
+				"name":"荣耀10000mAh 移动电源",
+				"img":"http://res0.vmallres.com/pimages//frontLocation/content/775317/1474558374684.jpg",
+				"tag":"热卖",
+				"promotion":"匠心工艺 多重防护",
+				"price":"¥125"
+			},
+			{
+				"name":"荣耀三脚架自拍杆",
+				"img":"http://res1.vmallres.com/pimages//frontLocation/content/775337/1478926565539.jpg",
+				"tag":"新品",
+				"promotion":"拿起放下 皆是风景",
+				"price":"¥79"
+			},
+			{
+				"name":"荣耀自拍杆",
+				"img":"http://res2.vmallres.com/pimages//frontLocation/content/775323/1474862365725.jpg",
+				"tag":"",
+				"promotion":"发现更美的自己",
+				"price":"¥49"
+			},
+			{
+				"name":"荣耀引擎耳机2代",
+				"img":"http://res3.vmallres.com/pimages//frontLocation/content/775327/1474862402277.jpg",
+				"tag":"",
+				"promotion":"简约时尚 物理调音",
+				"price":"¥129"
+			},
+			{
+				"name":"荣耀小口哨蓝牙耳机",
+				"img":"http://res4.vmallres.com/pimages//frontLocation/content/775325/1474558489811.jpg",
+				"tag":"",
+				"promotion":"智控随充听你的",
+				"price":"¥199"
+			},
+			{
+				"name":"荣耀引擎耳机PLUS",
+				"img":"http://res5.vmallres.com/pimages//frontLocation/content/775331/1474558540927.jpg",
+				"tag":"",
+				"promotion":"缤纷选择 荣耀品质",
+				"price":"¥99"
+			},
+			{
+				"name":"华为排插 快充版",
+				"img":"http://res6.vmallres.com/pimages//frontLocation/content/775315/1474558278432.jpg",
+				"tag":"热卖",
+				"promotion":"9V快充 3C认证",
+				"price":"¥149"
+			},
+			{
+				"name":"华为 9V2A手机充电器",
+				"img":"http://res7.vmallres.com/pimages//frontLocation/content/775319/1474862572975.jpg",
+				"tag":"",
+				"promotion":"高速快充 八重保护",
+				"price":"¥69"
+			},
+			{
+				"name":"华为AM116耳机",
+				"img":"http://res8.vmallres.com/pimages//frontLocation/content/775333/1474558577583.jpg",
+				"tag":"",
+				"promotion":"佩戴舒适 清听时光",
+				"price":"¥89"
+			},
+			{
+				"name":"华为 小天鹅蓝牙音箱",
+				"img":"http://res9.vmallres.com/pimages//frontLocation/content/775341/1477712549561.jpg",
+				"tag":"",
+				"promotion":"形如天鹅 音如天籁",
+				"price":"¥109"
+			}
+		],
+		"adImg":"http://res.vmallres.com/pimages//sale/2016-09/20160923091856627.jpg"
+	},
+	"品牌配件":{
+		"proList":[
+			{
+				"name":"缤特力 商务蓝牙耳机",
+				"img":"http://res0.vmallres.com/pimages//frontLocation/content/774891/1478279735364.jpg",
+				"tag":"新品",
+				"promotion":"智能语音控制，释放双手",
+				"price":"¥498"
+			},
+			{
+				"name":"耐翔 手机扩容U盘",
+				"img":"http://res1.vmallres.com/pimages//frontLocation/content/775163/1477529611551.jpg",
+				"tag":"热卖",
+				"promotion":"轻松扩容，高效传输",
+				"price":"¥69"
+			},
+			{
+				"name":"BroadLink  WiFi智能插座",
+				"img":"http://res2.vmallres.com/pimages//frontLocation/content/774895/1474556233330.jpg",
+				"tag":"热卖",
+				"promotion":"远程控制，节能省电",
+				"price":"¥59"
+			},
+			{
+				"name":"大康 运动型蓝牙耳机",
+				"img":"http://res3.vmallres.com/pimages//frontLocation/content/775161/1477529467724.jpg",
+				"tag":"",
+				"promotion":"享受运动中的乐趣",
+				"price":"¥128"
+			},
+			{
+				"name":"锐力 WIFI云端摄像笔",
+				"img":"http://res4.vmallres.com/pimages//frontLocation/content/774903/1479439429997.jpg",
+				"tag":"热卖",
+				"promotion":"书写录像两不误",
+				"price":"¥299"
+			},
+			{
+				"name":"BroadLink WiFi智能排插",
+				"img":"http://res5.vmallres.com/pimages//frontLocation/content/774899/1478062083890.jpg",
+				"tag":"",
+				"promotion":"独立控制，多组定时",
+				"price":"¥89"
+			}
+		],
+		"adImg":"http://res.vmallres.com/pimages//sale/2016-11/20161101095056448.jpg"
+	}
+	
+}

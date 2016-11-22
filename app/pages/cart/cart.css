@@ -1,0 +1,244 @@
+/*全局*/
+
+/*body,
+html {
+	width: 100%;
+	background: #f7f7f7;
+	font-size: 0.637492rem
+}
+
+body {
+	font-family: -apple-system-font, "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif
+}*/
+
+.cart{
+	background: #f7f7f7;
+	font-size: 0.637492rem
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight: normal;
+}
+
+.cart>header,
+.cart>section,
+.cart>div {
+	width: 100%
+}
+
+.cart {
+	padding-top: 2.39997rem;
+	padding-bottom: 3.674954rem
+}
+
+
+/*头部*/
+
+header {
+	background-color: #eee;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	max-width: 720px;
+	margin: 0 auto;
+	z-index: 100;
+	border-bottom: 1px solid #c7c7c7;
+}
+
+header .btn-back {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 2.25em;
+	height: 100%;
+	background: transparent url(../../images/cart/icon11_1.png) scroll no-repeat 50% 50%;
+	background-size: .45rem .8rem;
+}
+
+header div {
+	display: block;
+	width: 45%;
+	margin: 0 auto;
+	height: 2.399997rem;
+	line-height: 2.399997rem;
+	vertical-align: middle;
+	font-size: .8rem;
+	color: #333;
+	text-align: center;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	font-family: "宋体"
+}
+
+header .cart {
+	padding-top: .6rem;
+	position: absolute;
+	right: 0.675rem;
+	top: 0.5875rem;
+	padding: 0.599999rem;
+	background: url(../../images/cart/icon_home.png);
+	background-size: 1.2rem
+}
+
+
+/*空空如也*/
+
+.empty {
+	padding: 30% .8rem;
+	text-align: center;
+	display: none;
+}
+
+.empty div span {
+	background-image: url(../../images/cart/icon32.png);
+	height: 3.2rem;
+	width: 3.2rem;
+	display: inline-block;
+	background-size: 100% auto;
+}
+
+.empty div p {
+	padding-top: .8rem;
+	font-size: .65rem;
+	color: #bbb;
+}
+
+.btn {
+	padding: 2.5rem .8rem;
+}
+
+.btn a {
+	width: 100%;
+	display: inline-block;
+	padding: 0 .7rem;
+	height: 2.15rem;
+	line-height: 1.95rem;
+	border-radius: .5rem;
+	text-align: center;
+	min-width: 2.05rem;
+	background-color: #fbfbfb;
+	border: 1px solid #b2b2b2;
+	color: #333;
+}
+
+
+/*购物车有商品*/
+
+.full {
+	margin-top: 0.562493rem;
+	border-top: 1px solid #eee;
+	background: #fff;
+}
+
+form>p {
+	padding: .6rem;
+	font-size: 1.2em;
+	font-family: "宋体"
+}
+
+form>p span {
+	background: url(../../images/cart/icon_delete.png) no-repeat;
+	padding: 0.774995rem;
+	background-size: 70%;
+	float: right;
+	margin-top: -0.187498rem;
+	margin-right: -0.562493rem
+}
+
+li {
+	border-top: 1px solid #eee;
+	height: 4.199948rem;
+	line-height: 4.199948rem
+}
+
+li>span {
+	float: left;
+	padding: 0.599993rem;
+	margin: 1.424986rem 0 0 0.874995rem
+}
+
+.is_check {
+	background: url(../../images/cart/icon4_1.png)no-repeat -0.187498rem -1.599985rem;
+	background-size: 1.499981rem 2.999963rem
+}
+
+.no_check {
+	background: url(../../images/cart/icon4_1.png)no-repeat -0.187498rem -0.112499rem;
+	background-size: 1.499981rem 2.999963rem
+}
+
+li>div {
+	height: 100%;
+	margin-left: 1.749991rem;
+	line-height: 100%;
+	padding-top: 0.374995rem
+}
+
+li>div p {
+	height: 40%;
+	line-height: 1.087479rem;
+	font-size: 1.2em;
+	font-family: "宋体";
+	margin-bottom: 1.04986rem
+}
+
+li img {
+	width: 3.374958rem;
+	float: left;
+}
+
+li input {
+	float: right;
+	margin-right: 1.124986rem;
+	border: 1px solid rgba(0, 0, 0, .3);
+	border-radius: .72rem;
+	-webkit-border-radius: .72rem;
+	font-size: .7rem;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	background-color: #fff;
+	width: 2.43rem;
+	height: 1.22rem;
+	padding: 0 .6rem;
+	text-align: center;
+	color: #888;
+	vertical-align: middle;
+	margin-top: -0.374995rem
+}
+
+.bottom {
+	border-top: 1px solid #eee;
+	padding: .6rem .8rem;
+	min-height: 3.2rem;
+	line-height: 2.18746rem;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	background: #fff
+}
+
+.bottom span {
+	color: #ca151e;
+	font-size: .7rem;
+}
+
+.bottom a {
+	float: right;
+	background-color: #ca151e;
+	border: 1px solid #cc0a0d;
+	color: #fff;
+	padding: 0 .6rem;
+	height: 1.45rem;
+	line-height: 1.35rem;
+	border-radius: .5rem;
+	text-align: center;
+	min-width: 1.8rem;
+	margin-top: 0.349991rem
+}
+footer{
+	display: none;
+}

@@ -13,8 +13,8 @@
 			</div>
 			<div class="login">
 				
-				<a href="javascript:;"><img calss="cart" src="app/images/home/icon_shoppingCart.png"></a>
-				<a href="javascript:;"><img calss="personal" src="app/images/home/icon_personal.png" alt="" /></a>
+				<a ui-sref="cart"><img calss="cart" src="app/images/home/icon_shoppingCart.png"></a>
+				<a ui-sref="mine"><img calss="personal" src="app/images/home/icon_personal.png" alt="" /></a>
 			</div>
 		</header>
 		<!-- 轮播图部分 -->
@@ -128,7 +128,7 @@
 			</div>
 		</div>
 		
-		<section class="p">
+		<section class="p" >
 			<h3>
 				<span>精品推荐</span>
 				<hr />
@@ -136,18 +136,18 @@
 			<a href="javascript:;"><img src="app/images/home/mate9AD.jpg"/></a>
 			<div class="pro_list1">
 				<ul>
-					<li>
+					<!--<li ng-repeat="x in pro['精品推荐']['proList']">
 						<a href="javascript:;">
-							<p class="p-img"><img src="app/images/home/phone_list1.jpg" alt="" />
+							<p class="p-img"><img ng-src={{x.img}} alt="" />
 							<i class="icon-tag">
 								<img src="app/images/home/hot.png" alt="" />
 							</i>
 							</p>
-							<p class="p-name common-name">荣耀8</p>
-							<p class="p-promotion common-promotion"> 送价值49元保护壳</p>
-							<p class="p-price common-price">¥ 2299 </p>
+							<p class="p-name common-name">{{x.name}}</p>
+							<p class="p-promotion common-promotion">{{x.promotion}}</p>
+							<p class="p-price common-price">{{x.price}}</p>
 						</a>
-					</li>
+					</li>-->
 					<li>
 						<a href="javascript:;">
 							<p class="p-img"><img src="app/images/home/phone_list1.jpg" alt="" />
@@ -765,7 +765,7 @@
 			</p>
 		</div>
 
-		<div id="backTop">
+		<div id="backTop" >
 			
 		</div>
 

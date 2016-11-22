@@ -43,9 +43,39 @@ angular.module('huaweiMall.homePage',[])
 		css:'app/pages/home/old_to_new/old_to_new.css',
 		templateUrl:'app/pages/home/old_to_new/old_to_new.html'
 	})
+	.state({
+		name:'cart',
+		url:'/cart',
+		css:'app/pages/cart/cart.css',
+		templateUrl:'app/pages/cart/cart.html'
+	})
 	
 })
-.controller('homeCtrl',function($scope){
-	
-})
+.controller('homeCtrl',function($scope,$http,$timeout){
 
+	$timeout(function(){
+		var mySwiper1 = new Swiper ('.swiper-container1', {
+	   		autoplay: 2000,
+	   		autoplayDisableOnInteraction:false,
+	   		loop: true,
+	   		pagination: '.swiper-pagination'
+		})
+		
+		var mySwiper2 = new Swiper ('.swiper-container2', {
+			direction:'vertical',  
+	   		autoplay: 2000,
+	   		autoplayDisableOnInteraction:false,
+	   		loop: true
+		})
+	},0)
+	
+	$('#backTop').click(function(){
+		$('body').scrollTop(0);
+	})
+	
+//	$http.get('app/pages/home/home.json')
+//	.success(function(res){
+//		$scope.pro=res;
+//	})
+	$
+})
