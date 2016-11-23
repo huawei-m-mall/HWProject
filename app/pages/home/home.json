@@ -4,7 +4,7 @@
 			{
 				"name":"荣耀8",
 				"img":"http://res0.vmallres.com/pimages//product/6901443143009/428_428_1476788633423mp.jpg",
-				"tag":"爆款",
+				"tag":"http://res0.vmallres.com/pimages//tag/67/1474556959394.png",
 				"promotion":"送价值49元保护壳",
 				"price":"¥2299"
 			},
@@ -25,14 +25,14 @@
 			{
 				"name":"荣耀畅玩6X",
 				"img":"http://res3.vmallres.com/pimages//product/6901443151257/428_428_1476673497303mp.jpg",
-				"tag":"新品",
+				"tag":"http://res3.vmallres.com/pimages//tag/45/1474556767274.png",
 				"promotion":"双镜头 大内存 长续航",
 				"price":"¥1099"
 			},
 			{
 				"name":"荣耀畅玩5A",
 				"img":"http://res4.vmallres.com/pimages//frontLocation/content/775255/1474557254378.jpg",
-				"tag":"热卖",
+				"tag":"http://res4.vmallres.com/pimages//tag/49/1474556795015.png",
 				"promotion":"青春好拍档",
 				"price":"¥699"
 			},
@@ -67,7 +67,7 @@
 			{
 				"name":"荣耀畅玩5",
 				"img":"http://res9.vmallres.com/pimages//frontLocation/content/775285/1474557464550.jpg",
-				"tag":"热卖",
+				"tag":"http://res4.vmallres.com/pimages//tag/49/1474556795015.png",
 				"promotion":"惊艳小屏",
 				"price":"¥599"
 			},
@@ -88,7 +88,7 @@
 			{
 				"name":"荣耀手表 S1",
 				"img":"http://res2.vmallres.com/pimages//frontLocation/content/922165/1478144416197.jpg",
-				"tag":"新品",
+				"tag":"http://res3.vmallres.com/pimages//tag/45/1474556767274.png",
 				"promotion":"购新机 评价赢好礼",
 				"price":"¥699"
 			},
@@ -116,14 +116,14 @@
 			{
 				"name":"荣耀移动电源",
 				"img":"http://res6.vmallres.com/pimages//frontLocation/content/922175/1478145757635.png",
-				"tag":"热卖",
+				"tag":"http://res4.vmallres.com/pimages//tag/49/1474556795015.png",
 				"promotion":"匠心工艺 多重防护",
 				"price":"¥169"
 			},
 			{
 				"name":"华为排插快充版",
 				"img":"http://res7.vmallres.com/pimages//product/6901443146215/428_428_1474190781453mp.jpg",
-				"tag":"热卖",
+				"tag":"http://res4.vmallres.com/pimages//tag/49/1474556795015.png",
 				"promotion":"9V快充 3C认证",
 				"price":"¥149"
 			}
@@ -135,22 +135,22 @@
 			{
 				"name":"华为平板 M3",
 				"img":"http://res0.vmallres.com/pimages//frontLocation/content/775169/1479435846166.jpg",
-				"tag":"热卖",
+				"tag":"http://res4.vmallres.com/pimages//tag/49/1474556795015.png",
 				"promotion":"2K高清屏 HI-FI音效",
 				"price":"¥1888"
 			},
 			{
 				"name":"荣耀平板2",
 				"img":"http://res1.vmallres.com/pimages//frontLocation/content/775213/1476785750186.jpg",
-				"tag":"新品",
-				"promotion":"购新品 评价赢好礼",
+				"tag":"http://res3.vmallres.com/pimages//tag/45/1474556767274.png",
+				"promotion":"购新机评价赢好礼",
 				"price":"¥999"
 			},
 			{
 				"name":"荣耀畅玩平板",
 				"img":"http://res2.vmallres.com/pimages//frontLocation/content/870917/1477278943587.jpg",
 				"tag":"",
-				"promotion":"LTE版新品 双4G通话",
+				"promotion":"LTE版新品双4G通话",
 				"price":"¥799"
 			},
 			{
@@ -304,14 +304,14 @@
 			{
 				"name":"荣耀10000mAh 移动电源",
 				"img":"http://res0.vmallres.com/pimages//frontLocation/content/775317/1474558374684.jpg",
-				"tag":"热卖",
+				"tag":"http://res4.vmallres.com/pimages//tag/49/1474556795015.png",
 				"promotion":"匠心工艺 多重防护",
 				"price":"¥125"
 			},
 			{
 				"name":"荣耀三脚架自拍杆",
 				"img":"http://res1.vmallres.com/pimages//frontLocation/content/775337/1478926565539.jpg",
-				"tag":"新品",
+				"tag":"http://res3.vmallres.com/pimages//tag/45/1474556767274.png",
 				"promotion":"拿起放下 皆是风景",
 				"price":"¥79"
 			},
@@ -346,7 +346,7 @@
 			{
 				"name":"华为排插 快充版",
 				"img":"http://res6.vmallres.com/pimages//frontLocation/content/775315/1474558278432.jpg",
-				"tag":"热卖",
+				"tag":"http://res4.vmallres.com/pimages//tag/49/1474556795015.png",
 				"promotion":"9V快充 3C认证",
 				"price":"¥149"
 			},
@@ -379,21 +379,21 @@
 			{
 				"name":"缤特力 商务蓝牙耳机",
 				"img":"http://res0.vmallres.com/pimages//frontLocation/content/774891/1478279735364.jpg",
-				"tag":"新品",
+				"tag":"http://res3.vmallres.com/pimages//tag/45/1474556767274.png",
 				"promotion":"智能语音控制，释放双手",
 				"price":"¥498"
 			},
 			{
 				"name":"耐翔 手机扩容U盘",
 				"img":"http://res1.vmallres.com/pimages//frontLocation/content/775163/1477529611551.jpg",
-				"tag":"热卖",
+				"tag":"http://res4.vmallres.com/pimages//tag/49/1474556795015.png",
 				"promotion":"轻松扩容，高效传输",
 				"price":"¥69"
 			},
 			{
 				"name":"BroadLink  WiFi智能插座",
 				"img":"http://res2.vmallres.com/pimages//frontLocation/content/774895/1474556233330.jpg",
-				"tag":"热卖",
+				"tag":"http://res4.vmallres.com/pimages//tag/49/1474556795015.png",
 				"promotion":"远程控制，节能省电",
 				"price":"¥59"
 			},
@@ -407,7 +407,7 @@
 			{
 				"name":"锐力 WIFI云端摄像笔",
 				"img":"http://res4.vmallres.com/pimages//frontLocation/content/774903/1479439429997.jpg",
-				"tag":"热卖",
+				"tag":"http://res4.vmallres.com/pimages//tag/49/1474556795015.png",
 				"promotion":"书写录像两不误",
 				"price":"¥299"
 			},

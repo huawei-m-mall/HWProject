@@ -43,39 +43,88 @@ angular.module('huaweiMall.homePage',[])
 		css:'app/pages/home/old_to_new/old_to_new.css',
 		templateUrl:'app/pages/home/old_to_new/old_to_new.html'
 	})
-	.state({
-		name:'cart',
-		url:'/cart',
-		css:'app/pages/cart/cart.css',
-		templateUrl:'app/pages/cart/cart.html'
-	})
+//	//购物车
+//	.state({
+//		name:'cart',
+//		url:'/cart',
+//		css:'app/pages/cart/cart.css',
+//		templateUrl:'app/pages/cart/cart.html'
+//	})
+//	
+	
 	
 })
-.controller('homeCtrl',function($scope,$http,$timeout){
+.controller('homeCtrl',function($scope){
 
-	$timeout(function(){
-		var mySwiper1 = new Swiper ('.swiper-container1', {
+		$scope.mySwiper1 = new Swiper ('.swiper-container1', {
 	   		autoplay: 2000,
 	   		autoplayDisableOnInteraction:false,
 	   		loop: true,
 	   		pagination: '.swiper-pagination'
 		})
 		
-		var mySwiper2 = new Swiper ('.swiper-container2', {
+		$scope.mySwiper2 = new Swiper ('.swiper-container2', {
 			direction:'vertical',  
 	   		autoplay: 2000,
 	   		autoplayDisableOnInteraction:false,
 	   		loop: true
 		})
-	},0)
 	
-	$('#backTop').click(function(){
-		$('body').scrollTop(0);
+	$.get('app/pages/home/home.json',function(res){
+		
+		$.each(res, function(i,elem) {
+			if(i=="精品推荐"){
+				var str="<section class='p'>";
+			}else if(i=="热销配件"){
+				var str="<section class='parts common'>";
+			}else if(i=="品牌配件"){
+				var str="<section class='brand common'>";
+			}else{
+				var str="<section class='common'>"
+			}
+//			console.log(elem.adImg);
+			str+="<h3><span>"+i+"</span><hr/></h3><a href='javascript:;'><img src='"+elem.adImg+"'/></a><div>";
+			$.each(elem.proList,function(j,el){	
+				if(i!="精品推荐"){
+					if(j%2==0){
+						if(j!=0){
+							str+="</ul>";
+						}
+						str+="<ul>";
+					}
+				}else{
+					if(j%3==0){
+						if(j!=0){
+							str+="</ul>";
+						}
+						str+="<ul>";
+					}
+				}
+				str+="<li><a ui-sref='productDetails' href='#/productDetails'>";
+				if(i=="精品推荐"){
+					str+="<p class='p-img'>"
+				}else if(i=="热销配件"){
+					str+="<p class='parts-img common-img'>"
+				}else if(i=="品牌配件"){
+					str+="<p class='brand-img common-img'>"
+				}else{
+					str+="<p class='common-img'>"
+				}
+				str+="<img src='"+el.img+"'/>"
+				if(el.tag!=""){
+					str+="<i class='icon-tag'><img src='"+el.tag+"'/></i>"
+				}
+				str+="</p>";
+				str+="<p class='common-name'>"+el.name+"</p>";
+				str+="<p class='common-promotion'>"+el.promotion+"</p>";
+				str+="<p class='common-price'>"+el.price+"</p>";
+				str+="</a></li>";
+				
+			})
+
+			$(str).appendTo($(".main"));
+		})
+		
+
 	})
-	
-//	$http.get('app/pages/home/home.json')
-//	.success(function(res){
-//		$scope.pro=res;
-//	})
-	$
 })

@@ -200,6 +200,7 @@
 	height: 1px;
 }
 .page_home section h3 span{
+	/*display: none;*/
 	display: block;
 	position: absolute;
 	top: 0;
@@ -311,12 +312,15 @@
 }
 .page_home .common-img .icon-tag{
 	position: absolute;
-    left: 0;
+    left: 0rem;
     top: .2rem;
     height: 1.2rem;
     width: 1.2rem;
 }
-
+.page_home .brand-img .icon-tag,.page_home .parts-img .icon-tag{
+	left: .6rem;
+    top: .6rem;
+}
 .page_home .icon-tag>img{
 	width: 1.19999rem;
 	height: 1.19999rem;
@@ -336,7 +340,7 @@
 	height: 6rem;
     width: 100%;
 }
-.page_home .brand-name,.page_home .brand-promotion,.page_home .brand-price{
+.page_home .brand li p,.page_home .parts li p{
 	text-align: left;
 	padding-left:0.49983rem ;
 }
@@ -388,7 +392,7 @@
     color: #888;
 }
 
-.page_home #backTop{
+/*.page_home #backTop{
     border-radius: 50%;
     width: 1.95rem;
     height: 1.95rem;
@@ -398,4 +402,4 @@
     z-index: 103;
     bottom: 2.9rem;
     right: .5rem;
-}
+}*/

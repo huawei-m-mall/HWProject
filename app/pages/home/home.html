@@ -32,64 +32,81 @@
 		
 		<div class="pro_list">
 			<div>
-				<dl>
-					<dt>
-						<h3>HUAWEI Mate 9</h3>
-						<p>3399元起</p>
-					</dt>
-					<dd><img src="app/images/home/pro_list1.png" ></dd>
-				</dl>
-				<dl>
-					<dt>
-						<h3>荣耀8</h3>
-						<p>1999元起</p>
-					</dt>
-					<dd><img src="app/images/home/pro_list2.png" ></dd>
-				</dl>
-				<dl>
-					<dt>
-						<h3>荣耀7i</h3>
-						<p>直降200元</p>
-					</dt>
-					<dd><img src="app/images/home/pro_list3.png" ></dd>
-				</dl>
-				<dl>
-					<dt>
-						<h3>HUAWEI P9</h3>
-						<p>2988元起</p>
-					</dt>
-					<dd><img src="app/images/home/pro_list4.png" ></dd>
-				</dl>
+				<a ui-sref="productDetails">
+					<dl>
+						<dt>
+							<h3>HUAWEI Mate 9</h3>
+							<p>3399元起</p>
+						</dt>
+						<dd><img src="app/images/home/pro_list1.png" ></dd>
+					</dl>
+				</a>
+				<a ui-sref="productDetails">
+					<dl>
+						<dt>
+							<h3>荣耀8</h3>
+							<p>1999元起</p>
+						</dt>
+						<dd><img src="app/images/home/pro_list2.png" ></dd>
+					</dl>
+				</a>
+				<a ui-sref="productDetails">
+					<dl>
+						<dt>
+							<h3>荣耀7i</h3>
+							<p>直降200元</p>
+						</dt>
+						<dd><img src="app/images/home/pro_list3.png" ></dd>
+					</dl>
+				</a>
+				<a ui-sref="productDetails">
+					<dl>
+						<dt>
+							<h3>HUAWEI P9</h3>
+							<p>2988元起</p>
+						</dt>
+						<dd><img src="app/images/home/pro_list4.png" ></dd>
+					</dl>
+				</a>
+				
 			</div>
 			<div>
-				<dl>
-					<dt>
-						<h3>荣耀V8</h3>
-						<p>2099元起</p>
-					</dt>
-					<dd><img src="app/images/home/pro_list5.png" ></dd>
-				</dl>
-				<dl>
-					<dt>
-						<h3>HUAWEI nova</h3>
-						<p>2099元起</p>
-					</dt>
-					<dd><img src="app/images/home/pro_list6.png" ></dd>
-				</dl>
-				<dl>
-					<dt>
-						<h3>荣耀畅玩 5C</h3>
-						<p>799元起</p>
-					</dt>
-					<dd><img src="app/images/home/pro_list7.png" ></dd>
-				</dl>
-				<dl>
-					<dt>
-						<h3>华为路由 Q1</h3>
-						<p>599元</p>
-					</dt>
-					<dd><img src="app/images/home/pro_list8.jpg" ></dd>
-				</dl>
+				<a ui-sref="productDetails">
+					<dl>
+						<dt>
+							<h3>荣耀V8</h3>
+							<p>2099元起</p>
+						</dt>
+						<dd><img src="app/images/home/pro_list5.png" ></dd>
+					</dl>
+				</a>
+				<a ui-sref="productDetails">
+					<dl>
+						<dt>
+							<h3>HUAWEI nova</h3>
+							<p>2099元起</p>
+						</dt>
+						<dd><img src="app/images/home/pro_list6.png" ></dd>
+					</dl>
+				</a>
+				<a ui-sref="productDetails">
+					<dl>
+						<dt>
+							<h3>荣耀畅玩 5C</h3>
+							<p>799元起</p>
+						</dt>
+						<dd><img src="app/images/home/pro_list7.png" ></dd>
+					</dl>
+				</a>
+				<a ui-sref="productDetails">
+					<dl>
+						<dt>
+							<h3>华为路由 Q1</h3>
+							<p>599元</p>
+						</dt>
+						<dd><img src="app/images/home/pro_list8.jpg" ></dd>
+					</dl>
+				</a>
 			</div>
 		</div>
 		
@@ -128,14 +145,15 @@
 			</div>
 		</div>
 		
-		<section class="p" >
+		<div class="main">
+		<!--<section class="p" >
 			<h3>
 				<span>精品推荐</span>
 				<hr />
 			</h3>
 			<a href="javascript:;"><img src="app/images/home/mate9AD.jpg"/></a>
 			<div class="pro_list1">
-				<ul>
+				<ul>-->
 					<!--<li ng-repeat="x in pro['精品推荐']['proList']">
 						<a href="javascript:;">
 							<p class="p-img"><img ng-src={{x.img}} alt="" />
@@ -148,7 +166,7 @@
 							<p class="p-price common-price">{{x.price}}</p>
 						</a>
 					</li>-->
-					<li>
+					<!--<li>
 						<a href="javascript:;">
 							<p class="p-img"><img src="app/images/home/phone_list1.jpg" alt="" />
 							<i class="icon-tag">
@@ -748,7 +766,8 @@
 					</li>
 				</ul>
 			</div>
-		</section>
+		</section>-->
+		</div>
 
 		<div id="bottom_area">
 			<p class="login_out">
@@ -765,9 +784,10 @@
 			</p>
 		</div>
 
-		<div id="backTop" >
+		<!--<div id="backTop" >
 			
-		</div>
+		</div>-->
+		<back-top/>
 
 
 	</div>

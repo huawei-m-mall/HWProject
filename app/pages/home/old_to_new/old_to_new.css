@@ -71,7 +71,7 @@ header .title {
 	margin-left: 0.67499rem;
 }
 
-header a {
+header a:last-of-type {
 	width: 2.47497rem;
 	height: 1.96873rem;
 	color: #fff;
