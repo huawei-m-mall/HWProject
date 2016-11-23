@@ -14,7 +14,7 @@
 .mine .information .phone{margin-left: 1.124999rem;margin-right: 2.062497rem;}
 .mine .information .phone p:nth-of-type(2) a{color: white;font-size: 0.524999rem}
 .mine .information .confirm span img{width:0.412499rem ;height: 0.749999rem; }
-.mine .information .confirm a{font-size: 0.599999rem;margin-right: 0.412499rem;color: white;}
+.mine .information .confirm a{font-size: 0.599999rem;margin-right: 0.412499rem;color: white;} 
 /*主体部分*/
 .mine .main{background: #f7f7f7;overflow: hidden;}
 .mine .main ul:nth-of-type(1){width: 100%;margin-top: 0.599999rem;background:white;display: flex;flex-direction:column;}
