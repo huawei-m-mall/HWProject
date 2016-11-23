@@ -5,7 +5,7 @@ angular.module('huaweiMall.minePage',[])
 	.state({
 		name:'mine',
 		url:'/mine',
-		templateUrl:'app/pages/mine/mine.html',
+		templateUrl:'app/pages/mine/mine.html', 
 		css:'app/pages/mine/mine.css'
 	})
 	// 我的订单
