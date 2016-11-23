@@ -1,0 +1,26 @@
+@charset "utf-8";
+/*头部*/
+.myscore header{width: 100%;height: 2.174997rem;background: #eeeeee;position: fixed;left: 0;top: 0} 
+.myscore header p{width: 100%;height: 2.174997rem;line-height: 2.174997rem;}
+.myscore header p span{margin-left: 0.862499rem;margin-right: 6.074992rem;}
+.myscore header p a{font-size: 0.674999rem;}
+.myscore header p span img{width: 0.524999rem;height:0.862499rem }
+/*主体部分*/
+.myscore .main{background:#f7f7f7;border-top: 1px solid #c7c7c7;margin-top: 2.174997rem; }
+.myscore .main .top{width:100% ;height: 7.124991rem;margin-top: 0.562499rem;background: white;display: flex;flex-wrap:wrap;border-top: 1px solid #eeeeee;border-bottom: 1px solid #eeeeee;}
+.myscore .main p{width: 100%;}
+.myscore .main .top p:nth-of-type(1){height: 2.249997rem;display: flex;padding-left: 0.749999rem;align-items:center;font-size: 0.674999rem;font-weight: bold;}
+.myscore .main .top span{display: block;width: 100%;text-align: center;}
+.myscore .main .top span:nth-of-type(1){font-size: 1.124999rem;font-weight: bold;}
+.myscore .main .top span:nth-of-type(2){font-size: 0.674999rem;color: red}
+.myscore .main .top p:nth-of-type(2){width: 16.462479rem;height: 1.499998rem;line-height: 1.499998rem;border-top:1px solid #eeeeee;margin-left: 0.749999rem }
+.myscore .main .top p:nth-of-type(2) a{float: right;font-size: 0.674999rem;}
+.myscore .main .bottom{background: white;margin-top: 0.749999rem;overflow: hidden;}
+.myscore .main .bottom>div{width: 100%;height: 15.449981rem;}
+.myscore .main .bottom>div>span:first-of-type img{width: 2.887496rem;height: 2.624997rem;}
+.myscore .main .bottom>div>span{display: block;}
+.myscore .main .bottom>div>span:first-of-type{margin: 5.924993rem 0 0 7.537491rem;}
+.myscore .main .bottom>div>span:last-of-type{margin: 1.349998rem 0 0 6.899991rem;font-size: 0.524999rem;color: #666666}
+.myscore .main .bottom>p{width: 100%;height: 0.787499rem;background: #f7f7f7;}
+/*页脚部分要隐藏*/
+footer{display: none;}
