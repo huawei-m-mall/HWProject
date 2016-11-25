@@ -14,10 +14,8 @@ angular.module('huaweiMall.homePage',[])
 		name:'real_name',
 		url:'/real_name',
 		css:'app/pages/home/real_name/real_name.css',
-		templateUrl:'app/pages/home/real_name/real_name.html',
-//		controller:function($css){
-//			$css.add('app/pages/home/home.css');
-//		}
+		templateUrl:'app/pages/home/real_name/real_name.html'
+
 })
 	.state({
 		name:'phoneNav',
@@ -43,18 +41,9 @@ angular.module('huaweiMall.homePage',[])
 		css:'app/pages/home/old_to_new/old_to_new.css',
 		templateUrl:'app/pages/home/old_to_new/old_to_new.html'
 	})
-//	//购物车
-//	.state({
-//		name:'cart',
-//		url:'/cart',
-//		css:'app/pages/cart/cart.css',
-//		templateUrl:'app/pages/cart/cart.html'
-//	})
-//	
-	
-	
+
 })
-.controller('homeCtrl',function($scope){
+.controller('homeCtrl',function($scope,$timeout){
 
 		$scope.mySwiper1 = new Swiper ('.swiper-container1', {
 	   		autoplay: 2000,
@@ -65,7 +54,7 @@ angular.module('huaweiMall.homePage',[])
 		
 		$scope.mySwiper2 = new Swiper ('.swiper-container2', {
 			direction:'vertical',  
-	   		autoplay: 2000,
+	   		autoplay: 4000,
 	   		autoplayDisableOnInteraction:false,
 	   		loop: true
 		})
@@ -82,7 +71,7 @@ angular.module('huaweiMall.homePage',[])
 			}else{
 				var str="<section class='common'>"
 			}
-//			console.log(elem.adImg);
+
 			str+="<h3><span>"+i+"</span><hr/></h3><a href='javascript:;'><img src='"+elem.adImg+"'/></a><div>";
 			$.each(elem.proList,function(j,el){	
 				if(i!="精品推荐"){
@@ -110,7 +99,7 @@ angular.module('huaweiMall.homePage',[])
 				}else{
 					str+="<p class='common-img'>"
 				}
-				str+="<img src='"+el.img+"'/>"
+				str+="<img lazy-src='"+el.img+"' animate-visible='true' animate-speed='0.5s'/>"
 				if(el.tag!=""){
 					str+="<i class='icon-tag'><img src='"+el.tag+"'/></i>"
 				}
@@ -121,10 +110,12 @@ angular.module('huaweiMall.homePage',[])
 				str+="</a></li>";
 				
 			})
-
-			$(str).appendTo($(".main"));
+			$scope.$apply(function(){
+				$(str).appendTo($(".main"));
+			})
+			
 		})
 		
-
 	})
+	
 })

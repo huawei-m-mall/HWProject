@@ -4,7 +4,7 @@
 		<a href="javascript:history.go(-1);"><img src="app/images/home/vCode/icon11_1.png"/></a>
 		<span>商品详情</span>
 		<a ui-sref="home"><img src="app/images/cart/icon_home.png"/></a>
-		<a ui-sref="cart"><img src="app/images/home/icon_shoppingCart.png"><b class="cnt">0</b></a>
+		<a ui-sref="cart"><img src="app/images/home/icon_shoppingCart.png"><b class="cnt">{{cnt}}</b></a>
 	</div>
 	<p class="prodetail">
 		<a href="javasript:;">基本信息</a>
@@ -33,14 +33,14 @@
 			<p>【送TPU保护壳+免费领取30天碎屏险】双镜头/双2.5D玻璃/双功能指纹</p>
 		
 			<dl>
-				<dd>￥2299.00</dd>
-				<dt>
+				<dd class="price">￥2299.00</dd>
+				<dt class="parts">
 					<span>配:</span>
 					<img src="http://res.vmallres.com/pimages//product/6901443123315//428_428_1469011553330mp.jpg"/>
 				</dt>
 				<p>
 					<span>以旧换新：</span>
-					<a href="javasript:;">旧手机最高抵5000元 立即参加></a>
+					<a href="javasript:;">旧手机最高抵5000元 <a ui-sref="old_to_new">立即参加></a></a>
 				</p>
 				<dd>
 					<span>支持:</span>
@@ -51,9 +51,9 @@
 		<div id="orderPro">
 			<p>
 				<span>数量:</span>
-				<b class="mul"></b>
-				<a class="num">1</a>
-				<b class="add"></b>
+				<b class="mul" ></b>
+				<a class="num" >{{num}}</a>
+				<b class="add" ></b>
 			</p>
 			<dl>
 				<dt>
@@ -129,8 +129,23 @@
 	</div>
 	<div id="cartpos">
 		<p>
-			<a>加入购物车</a>
-			<a>立即下单</a>
+			<a class="addCart">加入购物车</a>
+			<a ui-sref="cart">立即下单</a>
 		</p>
 	</div>
+	
+	
+	<!--确认加入购物车模块-->
+	<div id="confirm" ng-show='flag'>
+		<div class="inner">
+			<h3>提示</h3>
+			<p>添加商品成功</p>
+			<div>
+				<a class="ok" ui-sref="cart" ng-click="close()">确定</a>
+			</div>
+		</div>
+	</div>
+	
+	<!--提示商品达到最大购买数量或没有更改购买数量-->
+	<div class="maxNum" ng-show="maxFlag">{{tipText}}</div>
 </div>

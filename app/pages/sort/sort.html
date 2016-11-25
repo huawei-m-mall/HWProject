@@ -1,3 +1,23 @@
-<h1>
-	这是sort page
-</h1>
+<div class="sort">
+		<div id="productSort">
+			<a ui-sref="home"><img src="app/images/sort_img/icon11_1.png"/></a>
+			<span>商品分类</span>
+			<img src="app/images/sort_img/icon_shoppingCart.png">
+			<b class="cnt">0</b>
+		</div>
+		<div id="productList">
+			<aside id="leftSort">
+				<ul>
+					<li><a ui-sref="sort.part1" ui-sref-active='sActive'>手机</a><span></span></li>
+					<li><a ui-sref="sort.part2" ui-sref-active='sActive'>笔记本&平板</a><span></span></li>
+					<li><a ui-sref="sort.part3" ui-sref-active='sActive'>穿戴</a><span></span></li>
+					<li><a ui-sref="sort.part4" ui-sref-active='sActive'>智能家居</a><span></span></li>
+					<li><a ui-sref="sort.part5" ui-sref-active='sActive'>专属配件</a><span></span></li>
+					<li><a ui-sref="sort.part6" ui-sref-active='sActive'>通用配件</a><span></span></li>
+				</ul>
+			</aside>
+			<aside id="rightSort" ui-view>
+			
+			</aside>
+		</div>
+	</div>

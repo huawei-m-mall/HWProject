@@ -1,0 +1,17 @@
+@charset "utf-8";
+/*头部*/
+.returngoods header{width: 100%;height: 2.174997rem;background: #eeeeee;border-bottom: 1px solid #c7c7c7;position: fixed;left: 0;top: 0;} 
+.returngoods header p{width: 100%;height: 2.174997rem;line-height: 2.174997rem;}
+.returngoods header p span{margin-left: 0.862499rem;margin-right: 6.074992rem;}
+.returngoods header p a{font-size: 0.674999rem;}
+.returngoods header p span img{width: 0.524999rem;height:0.862499rem }
+/*主体部分*/
+.returngoods>.main{background: #f7f7f7;overflow: hidden;height: 22.874971rem;margin-top: 2.174997rem;}
+.returngoods>.main>span:nth-of-type(1){display: block;margin: 5.849993rem 0 0 7.87499rem;}
+.returngoods>.main>span:nth-of-type(1) img{width: 2.249997rem;height: 2.212497rem;}
+.returngoods>.main>span:nth-of-type(2){margin-top: 1.762498rem;margin-left: 5.062494rem;display: block;font-size: 0.599999rem;color: #666666;}
+.returngoods>.main>p:nth-of-type(1){margin-top: 1.499998rem;margin-left: 0.974999rem;font-size: 0.524999rem;color: #888888;}
+.returngoods>.main>p:nth-of-type(2){margin-top: 0.449999rem;margin-left: 2.512497rem;font-size: 0.524999rem;color: #888888;}
+.returngoods>a{display: block;width: 16.12498rem;height: 2.099997rem;line-height: 2.099997rem;border: 1px solid #b2b2b2;border-radius: 0.375rem;font-size: 0.674999rem;text-align: center;background: white;position: fixed;left: 1.012499rem;top: 17.324978rem;}
+/*页脚部分要隐藏*/
+footer{display: none;}

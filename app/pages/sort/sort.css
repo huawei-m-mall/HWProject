@@ -1,0 +1,40 @@
+.sort #productSort{width: 100%;height: 2.399997rem;background: #eeeeee;border-bottom: 1px solid #c7c7c7;display: flex;align-items: center;position: fixed;left: 0;top: 0;}
+.sort #productSort a img{width: 0.599999rem;height: 0.899999rem;margin-left: 0.749999rem;}
+.sort #productSort>span{margin-left: 6.224992rem;font-size:0.749999rem;color: #333;width: 3.749995rem;}
+.sort #productSort>img{width: 1.199999rem;height: 1.199999rem;margin-left: 5.774993rem;}
+.sort #productSort .cnt{
+	position: relative;
+    display: block;
+    right: 0.375rem;
+    bottom:0.225rem;
+    background-color: #ca151e;
+    line-height: 14px;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 100%;
+    padding:0 3.3px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.sort #productList{width: 100%;display: flex;}
+.sort #productList #leftSort{width: 5.924993rem;background: #fff;position: fixed;left: 0;top:2.399997rem;overflow-y:auto;}
+.sort #productList #leftSort ul{height: 20.249967rem;}
+.sort #productList #leftSort ul li{height: 2.474997rem;line-height: 2.474997rem;width: 5.924993rem;float: left;}
+.sort #productList #leftSort ul li a{font-size: 0.749999rem;margin-left: 0.749999rem;color: #333;float: left;width: 4.32305rem;}
+/*.sort #productList #leftSort ul li:first-of-type a{
+color: #ec1d20;
+}*/
+.sort #productList #leftSort .sActive{
+	color: #ec1d20;	
+}
+.sort #productList #leftSort ul li span{display: block;border:0.375rem solid #efefef;width: 0;height: 0;border-left-color: #fff;border-top-color:#fff;border-bottom-color: #fff;float: right;margin-top: 24px;display: none;}
+.sort #productList #leftSort ul li:first-of-type span{display: inline-block;}
+
+
+
+
+.sort #productList #rightSort{width: 12.074985rem;background: #efefef;position: fixed;top: 2.399997rem;left: 5.924993rem;overflow-y:auto;}
+.sort #productList #rightSort dl{display: flex;align-items: center;border-bottom: 1px solid #e1e1e1;height: 4.274995rem;}
+.sort #productList #rightSort dl dt img{width: 3.412496rem;height: 3.412496rem;}
+.sort #productList #rightSort dl dd{font-size: 0.749999rem;color: #333;}

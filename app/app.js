@@ -6,7 +6,8 @@ angular.module('huaweiMall',['ui.router',
 'huaweiMall.minePage',
 'huaweiMall.sortPage',
 'huaweiMall.cartPage',
-'huaweiMall.productDetails'
+'huaweiMall.productDetails',
+"me-lazyload"
 ])
 
 .config(function($stateProvider,$urlRouterProvider){

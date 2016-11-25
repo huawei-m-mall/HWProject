@@ -1,0 +1,36 @@
+{
+	"use":[
+		{
+			"topimg":"http://res.vmallres.com/pimages//tag/49/1474556795015.png",
+			"img":"http://res.vmallres.com/pimages//product/6901443127030/428_428_1475025651654mp.jpg",
+			"name":"荣耀10000mAh 移动电源 快充版（白色）",
+			"price":"169",
+			"moods":"216",
+			"assess":"180"
+		},
+		{
+			"topimg":"",
+			"img":"http://res.vmallres.com/pimages//product/6901443102600/428_428_1468306625133mp.jpg",
+			"name":"荣耀5000mAh 移动电源（石墨黑）",
+			"price":"99",
+			"moods":"60",
+			"assess":"140"
+		},
+		{
+			"topimg":"",
+			"img":"http://res.vmallres.com/pimages//product/6901443102662/428_428_1466651694759mp.jpg",
+			"name":"华为5000mAh 移动电源（极地白）",
+			"price":"99",
+			"moods":"69",
+			"assess":"160"
+		},
+		{
+			"topimg":"",
+			"img":"http://res.vmallres.com/pimages//product/GB10113050102403/428_428_1469587509505mp.jpg",
+			"name":"云度Yundu 运动防水太阳能移动电源（黄色）",
+			"price":"168",
+			"moods":"61",
+			"assess":"120"
+		}
+	]
+}

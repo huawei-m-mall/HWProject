@@ -1,0 +1,21 @@
+{
+	"house":[
+		{
+			"name":"华为路由Q1子路由（雅黑）",
+			"topimg":"",
+			"img":"http://res.vmallres.com/pimages//product/6901443128990/428_428_1470042513541mp.jpg",
+
+			"price":"179",
+			"moods":"69",
+			"assess":"283"
+		},
+		{
+			"name":"电视盒子",
+			"topimg":"http://res.vmallres.com/pimages//tag/49/1474556795015.png",
+			"img":"http://res.vmallres.com/pimages//product/6901443135929/428_428_1475917596008mp.jpg",
+			"price":"599",
+			"moods":"61",
+			"assess":"121"
+		}
+	]
+}

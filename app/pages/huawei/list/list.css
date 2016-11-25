@@ -1,0 +1,35 @@
+/*全局*/
+body,html{width: 100%;background: #f7f7f7;}
+body{padding-bottom: 2.474997rem}
+h1,h2,h3,h4,h5,h6{font-weight: normal;}
+.list>header,.list>section,.list>div{width: 100%}
+.list{padding-top: 2.437497rem}
+
+/*头部*/
+header{background-color: #eee;position: fixed;top: 0;left: 0;right: 0;width: 100%;margin: 0 auto;z-index: 100;border-bottom: 1px solid #c7c7c7;}
+header .btn-back{position: absolute;left: 0;top: 0;width: 2.25em;height: 100%;background: transparent url(../../../images/list/icon11_1.png) scroll no-repeat 50% 50%;background-size: .45rem .8rem;}
+header div{display: block;width: 45%;margin: 0 auto;height: 2.399997rem;line-height: 2.399997rem;vertical-align: middle;font-size: .7rem;color: #333;text-align: center;text-overflow: ellipsis;white-space: nowrap;overflow: hidden;}
+header .cart{padding-top: .6rem;position: absolute;right: 0.675rem;top: 0.5875rem;
+	padding: 0.599999rem;background: url(../../../images/list/header_Cart.png);background-size: 1.2rem }
+header .num{position: absolute;display: block;top: 0;right: 0;background-color: #ca151e;height: 1.16em;min-width: .8em;line-height: 1.26em;text-decoration: none;color: #fff;font-size: .45em;border-radius: .58em;padding: 0 .24em;}
+
+/*主体*/
+section div{margin-top: .4rem;background-color: #fff;overflow: hidden;}
+section h3{height: 1.8rem;line-height: 1.8rem;padding-left: .4rem;font-size: .75rem;padding-top: 0.1575rem}
+section li{    width: 25%;
+    float: left;
+    text-align: center;}
+section li a{padding: 0 .25rem;font-size: .5rem;}
+section img{width: 3.974995rem}
+
+
+
+
+
+
+
+
+
+
+
+

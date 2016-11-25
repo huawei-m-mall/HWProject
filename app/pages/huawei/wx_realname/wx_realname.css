@@ -1,0 +1,50 @@
+/*全局*/
+body,html{width: 100%;background: #f7f7f7;font-size: 0.637492rem}
+body{font-family: -apple-system-font,"Helvetica Neue","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif}
+h1,h2,h3,h4,h5,h6{font-weight: normal;}
+.wx_realname>header,.wx_realname>section,.wx_realname>div{width: 100%}
+.wx_realname{position: relative;padding: 0.749991rem 0.562493rem 0.562493rem;background-color: #fff;}
+/*footer隐藏*/
+footer{display: none;}
+
+/*头部*/
+header h2{margin-bottom: 10px;line-height: 1.4;font-weight: 400;font-size: 24px;}
+header p a{color: #607fa6;} 
+header img{width: 100%;margin-top: 0.749991rem}
+
+/*主体*/
+.main{margin-top: 0.824986rem}
+.main>div{padding: 1.049987rem 0.599993rem 0.599993rem;border: 0.074999rem solid rgb(5, 157, 127);line-height: 1.124986rem;position: relative;margin-top: 1.4rem}
+.main>div>span{background: #fff;padding: 0 0.187498rem;position: absolute;top: -.624986rem}
+.main>div>span>span{background: rgb(5, 157, 127);color: #fff;padding: 0.112499rem}
+.main>div a{color: red;}
+.main p{margin: 0.227498rem 0;}
+.main h3{font-family: 宋体;color: red;word-wrap: break-word !important;font-weight: bold;font-size: 0.749991rem}
+.main>p{margin: 0.499996rem 0;font-family: 宋体;}
+.main>a{color: #607fa6;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

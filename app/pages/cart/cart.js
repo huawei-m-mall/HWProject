@@ -6,7 +6,76 @@ angular.module('huaweiMall.cartPage',[])
 		name:'cart',
 		url:'/cart',
 		css:'app/pages/cart/cart.css',
-		templateUrl:'app/pages/cart/cart.html'
+		templateUrl:'app/pages/cart/cart.html',
+		controller:'cartCtrl'
 	})
+})
+.controller('cartCtrl',function($scope,$timeout){
+	function loadHistory(){
+		if(localStorage.proList){
+			$scope.flag=true;
+			var data=localStorage.proList;
+			$scope.data=JSON.parse(data);
+			totalMoney();
+		}
+	}
+	loadHistory();
+	
+	function totalMoney(){
+		$timeout(function(){
+			var sum=0,price,num;
+			$('.is_check').each(function(i,elem){
+				price=$(this).parents('li').find('.price').text();
+				num=$(this).parents('li').find('.num').val();
+				price=parseFloat(price.substr(1)).toFixed(2);
+				sum+=price*num;
+			})
+			$('.total').text(sum);
+		},0)
+	}
+	
+	$scope.del=function(){
+		$('.is_check').parents('li').remove();
+		if(!$('.full li').length){
+			$scope.flag=false;
+			$scope.clear();
+			return;
+		}
+		var data=localStorage.proList;
+		$scope.data=JSON.parse(data);
+		//判断产出元素，并从本地缓存中删除
+		$($scope.data).each(function(i,elem){
+			$('.is_check').each(function(j,el){
+				if($(this).parents('li').find('.name').html()==elem.name){
+					$($scope.data).splice(i,1);
+				}
+			})
+		})
+		localStorage.proList=JSON.stringify($scope.data);
+	}
+	
+	$scope.changeNum=function(){
+		$scope.data=localStorage.proList;
+		$scope.data=JSON.parse($scope.data);
+		$scope.data[0].num=$('.num').val();
+		localStorage.proList=JSON.stringify($scope.data);
+		totalMoney();
+	}
+	
+	$scope.choose=function($event){
+
+		if($($event.target).hasClass('is_check')){
+			
+			$($event.target).addClass('no_check').removeClass('is_check');
+		}else{
+			$($event.target).addClass('is_check').removeClass('no_check');
+		}
+		totalMoney();
+	}
+	
+	$scope.clear=function(){
+		localStorage.clear();
+		$scope.flag=false;
+	}
 	
 })
