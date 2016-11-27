@@ -12,55 +12,55 @@ angular.module('huaweiMall.sortPage',[])
 	.state({
 	name:"sort.part1",
 	url:'/part1',
-//	css:"app/pages/sort/sort.part1/sort.part1.css",
+	css:"app/pages/sort/sort.css",
 	templateUrl:"app/pages/sort/sort.part1/sort.part1.html",
-	controller:function($css){
-		$css.add("app/pages/sort/sort.css")
+	controller:function(scroll){
+		scroll.autoScroll();
 	}
 })
 .state({
 	name:"sort.part2",
 	url:'/part2',
-//	css:"app/pages/sort/sort.part2/sort.part2.css",
+	css:"app/pages/sort/sort.css",
 	templateUrl:"app/pages/sort/sort.part2/sort.part2.html",
-	controller:function($css){
-		$css.add("app/pages/sort/sort.css")
+	controller:function(scroll){
+		scroll.autoScroll();
 	}
 })
 .state({
 	name:"sort.part3",
 	url:'/part3',
-//	css:"app/pages/sort/sort.part3/sort.part3.css",
+	css:"app/pages/sort/sort.css",
 	templateUrl:"app/pages/sort/sort.part3/sort.part3.html",
-	controller:function($css){
-		$css.add("app/pages/sort/sort.css")
+	controller:function(scroll){
+		scroll.autoScroll();
 	}
 })
 .state({
 	name:"sort.part4",
 	url:'/part4',
-//	css:"app/pages/sort/sort.part4/sort.part4.css",
+	css:"app/pages/sort/sort.css",
 	templateUrl:"app/pages/sort/sort.part4/sort.part4.html",
-	controller:function($css){
-		$css.add("app/pages/sort/sort.css")
+	controller:function(scroll){
+		scroll.autoScroll();
 	}
 })
 .state({
 	name:"sort.part5",
 	url:'/part5',
-//	css:"app/pages/sort/sort.part5/sort.part5.css",
+	css:"app/pages/sort/sort.css",
 	templateUrl:"app/pages/sort/sort.part5/sort.part5.html",
-	controller:function($css){
-		$css.add("app/pages/sort/sort.css")
+	controller:function(scroll){
+		scroll.autoScroll();
 	}
 })
 .state({
 	name:"sort.part6",
 	url:'/part6',
-//	css:"app/pages/sort/sort.part6/sort.part6.css",
+	css:"app/pages/sort/sort.css",
 	templateUrl:"app/pages/sort/sort.part6/sort.part6.html",
-	controller:function($css){
-		$css.add("app/pages/sort/sort.css")
+	controller:function(scroll){
+		scroll.autoScroll();
 	}
 })
 .state({
@@ -108,7 +108,6 @@ angular.module('huaweiMall.sortPage',[])
 })
 
 
-
 })
 
 
@@ -120,19 +119,8 @@ angular.module('huaweiMall.sortPage',[])
 			$("#leftSort ul li span").css("display","none");
 			$("#leftSort ul li span").eq(i).css("display","block");
 		})
-		setTimeout(function(){
-		$("#leftSort").css("height",innerHeight-$("#productSort")[0].offsetHeight);
-	//console.log($("#leftSort").css("height"));
 	
-	$("#rightSort").css("height",innerHeight-$("#productSort")[0].offsetHeight);
-	//console.log($("#rightSort"));
-	$(window.resize,function(){
-		$("#leftSort").css("height",innerHeight-$("#productSort")[0].offsetHeight);
-	$("#rightSort").css("height",innerHeight-$("#productSort")[0].offsetHeight);
 	})
-	},0);
-	})
-	$("#leftSort ul li").eq(0).click();
 	
 })
 
@@ -574,98 +562,18 @@ angular.module('huaweiMall.sortPage',[])
 	
 })
 
+//封装服务 （滚动条）
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-//.controller('padCtrl',function(){
-//	$.get('app/pages/sort/json/pbcomputer.json',function(req){
-//	var str="";
-//			$.each(req.computer,function(i,elem){
-//				if(i>=0&&i<=1){
-//					str+='<a ui-sref="productDetails" href="#/productDetails"><dl><dt><img src="'+elem.topimg+'" class="imges"><img src="'+elem.img+'" class="img"></dt>';
-//				}else{
-//					str+='<a ui-sref="productDetails" href="#/productDetails"><dl><dt><img src="'+elem.img+'" class="img"></dt>';
-//				}
-//				str+='<div><dd>'+elem.name+'</dd>';
-//				str+='<dd>'+elem.price+'</dd></div></dl></a>';
-//
-//			})
-//			$("#showPhone").html(str);	
-//	})
-//})
-//.controller('braceletCtrl',function(){
-//	$.get('app/pages/sort/json/dress.json',function(req){
-//	var str="";
-//			$.each(req.dress,function(i,elem){
-//				if(i==0){
-//					str+='<a ui-sref="productDetails" href="#/productDetails"><dl><dt><img src="'+elem.topimg+'" class="imges"><img src="'+elem.img+'" class="img"></dt>';
-//				}else{
-//					str+='<a ui-sref="productDetails" href="#/productDetails"><dl><dt><img src="'+elem.img+'" class="img"></dt>';
-//				}
-//				str+='<div><dd>'+elem.name+'</dd>';
-//				str+='<dd>'+elem.price+'</dd></div></dl></a>';
-//
-//			})
-//			$("#showPhone").html(str);
-//	})
-//})
-//.controller('houseCtrl',function(){
-//	$.get('app/pages/sort/json/house.json',function(req){
-//	var str="";
-//			$.each(req.house,function(i,elem){
-//				if(i==0){
-//					str+='<a ui-sref="productDetails" href="#/productDetails"><dl><dt><img src="'+elem.img+'" class="img"></dt>';
-//				}else{
-//					str+='<a ui-sref="productDetails" href="#/productDetails"><dl><dt><img src="'+elem.topimg+'" class="imges"><img src="'+elem.img+'" class="img"></dt>';
-//				}
-//				str+='<div><dd>'+elem.name+'</dd>';
-//				str+='<dd>'+elem.price+'</dd></div></dl>';
-//
-//			})
-//			$("#showPhone").html(str);
-//	})
-//})
-//.controller('privateCtrl',function(){
-//	$.get('app/pages/sort/json/private.json',function(req){
-//	var str="";
-//			$.each(req.private,function(i,elem){
-//				if(i==3){
-//					str+='<dl><dt><img src="'+elem.topimg+'" class="imges"><img src="'+elem.img+'" class="img"></dt>';
-//				}else{
-//					str+='<dl><dt><img src="'+elem.img+'" class="img"></dt>';
-//				}
-//				
-//				str+='<div><dd>'+elem.name+'</dd>';
-//				str+='<dd>'+elem.price+'</dd></div></dl></a>';
-//
-//			})
-//			$("#showPhone").html(str);
-//	})
-//})
-//.controller('useCtrl',function(){
-//	$.get('app/pages/sort/json/tuse.json',function(req){
-//	var str="";
-//			$.each(req.use,function(i,elem){
-//				if(i==0){
-//					str+='<a ui-sref="productDetails" href="#/productDetails"><dl><dt><img src="'+elem.topimg+'" class="imges"><img src="'+elem.img+'" class="img"></dt>';
-//				}else{
-//					str+='<a ui-sref="productDetails" href="#/productDetails"><dl><dt><img src="'+elem.img+'" class="img"></dt>';
-//				}
-//				str+='<div><dd>'+elem.name+'</dd>';
-//				str+='<dd>'+elem.price+'</dd></div></dl></a>';
-//
-//			})
-//			$("#showPhone").html(str);
-//	})
-//})
+.service('scroll',function(){
+   this.autoScroll=function(){
+   		setTimeout(function(){
+			$("#leftSort").css("height",innerHeight-$("#productSort")[0].offsetHeight);
+		$("#rightSort").css("height",innerHeight-$("#productSort")[0].offsetHeight);
+	
+		$(window.resize,function(){
+			$("#leftSort").css("height",innerHeight-$("#productSort")[0].offsetHeight);
+		$("#rightSort").css("height",innerHeight-$("#productSort")[0].offsetHeight);
+		})
+		},0);
+   }
+})

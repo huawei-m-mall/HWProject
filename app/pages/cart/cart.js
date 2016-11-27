@@ -73,9 +73,34 @@ angular.module('huaweiMall.cartPage',[])
 		totalMoney();
 	}
 	
-	$scope.clear=function(){
-		localStorage.clear();
-		$scope.flag=false;
+	$('.clear').click(function(){
+		if($('.is_check').length!=0){
+			localStorage.removeItem('proList');
+			$scope.$apply(function(){
+				$scope.flag=false;
+			})
+		}else{
+			tips();
+		}
+		
+	})
+	
+	function tips(){
+		//给提示框赋值
+		
+		//判断当前是否有动画正在执行
+			if($(".emptyTips").is(':animated')){
+				return;
+			}
+			$('.emptyTips').css({'opacity':1});
+			
+			$scope.$apply(function(){
+				$scope.maxFlag=true;
+				$('.emptyTips').animate({'opacity':0},1000,function(){
+					$scope.maxFlag=false;
+				})
+			})
 	}
 	
+
 })

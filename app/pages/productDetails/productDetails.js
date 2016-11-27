@@ -136,7 +136,7 @@ angular.module('huaweiMall.productDetails',[])
 	//加入购物车按钮
 	$(".addCart").click(function(){
 		
-		//直接点击购物车，不能商品
+		//直接点击购物车，不能加入购物车
 		if($scope.tip){
 			$scope.$apply(function(){
 				$scope.tipText="请先修改购物车中的商品数量,否则不能重复提交哦";

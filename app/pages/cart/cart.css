@@ -242,6 +242,23 @@ li input {
 	min-width: 1.8rem;
 	margin-top: 0.349991rem
 }
+
+.cart .emptyTips{
+	position: fixed;
+    bottom: 20%;
+    z-index: 1001;
+    background-color: rgba(0,0,0,.9);
+    color: #fff;
+    text-align: center;
+    border-radius: 1.2rem;
+    width: 80%;
+    line-height: 2.4;
+    font-size: .6rem;
+    left: 8%;
+    /*right: 10%;*/
+    min-width: 275px;
+}
+
 footer{
 	display: none;
 }

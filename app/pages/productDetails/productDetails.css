@@ -493,8 +493,9 @@
     width: 80%;
     line-height: 2.4;
     font-size: .6rem;
-    left: 10%;
-    right: 10%;
+    left: 8%;
+    /*right: 10%;*/
+    min-width: 275px;
 }
 
 /*最小商品样式*/

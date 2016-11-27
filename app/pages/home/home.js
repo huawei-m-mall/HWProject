@@ -99,7 +99,7 @@ angular.module('huaweiMall.homePage',[])
 				}else{
 					str+="<p class='common-img'>"
 				}
-				str+="<img lazy-src='"+el.img+"' animate-visible='true' animate-speed='0.5s'/>"
+				str+="<img lazy-src='"+el.img+"'/>"
 				if(el.tag!=""){
 					str+="<i class='icon-tag'><img src='"+el.tag+"'/></i>"
 				}
@@ -110,9 +110,9 @@ angular.module('huaweiMall.homePage',[])
 				str+="</a></li>";
 				
 			})
-			$scope.$apply(function(){
+			
 				$(str).appendTo($(".main"));
-			})
+			
 			
 		})
 		

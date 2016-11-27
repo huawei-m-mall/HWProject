@@ -7,7 +7,7 @@ angular.module('huaweiMall',['ui.router',
 'huaweiMall.sortPage',
 'huaweiMall.cartPage',
 'huaweiMall.productDetails',
-"me-lazyload"
+"me-lazyimg"
 ])
 
 .config(function($stateProvider,$urlRouterProvider){
@@ -25,3 +25,4 @@ angular.module('huaweiMall',['ui.router',
 		}
 	}
 })
+
