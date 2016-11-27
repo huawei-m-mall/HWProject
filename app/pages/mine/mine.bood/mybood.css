@@ -26,6 +26,7 @@
 .mybood .footer p:nth-of-type(2) span{font-size: 0.674999rem;color:#888888;}
 .mybood .footer p:nth-of-type(2) span:first-of-type{color: #ca151e;}
 .mybood .footer p:nth-of-type(3){text-align: center;/*font-size: 0.674999rem;*/color:#888888;} 
+.mybood .footer p:nth-of-type(3) span{font-size: 0.674999rem;}
 .mybood .footer:after{content: "";display: block;width: 100%;height: 2.5rem; }
 
 /*页脚部分要隐藏*/

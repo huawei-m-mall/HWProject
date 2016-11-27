@@ -71,7 +71,6 @@ angular.module('huaweiMall.homePage',[])
 		})
 	
 	$.get('app/pages/home/home.json',function(res){
-		
 		$.each(res, function(i,elem) {
 			if(i=="精品推荐"){
 				var str="<section class='p'>";

@@ -7,25 +7,31 @@
 .mine .information{width: 100%;height: 7.94999rem;background: url(../../images/mine-images/memberbg.jpg) no-repeat;display: flex;align-items:center;margin-top: 2.399997rem;justify-content:center;background-size: 100% auto;}
 .mine .pic img{width: 3.187496rem;height:3.187496rem;}
 .mine .information .info{width:15.599981rem ;height: 3.149996rem;display: flex;align-items:center;}
+.mine .information .phone p:nth-of-type(2){display: flex;align-items:center;width: 6.399993rem}
+.mine .information .phone p:nth-of-type(2) a:nth-of-type(1){display: block;width: 2.737497rem;height: 0.824999rem;text-align: center;line-height: 0.824999rem;}
+.mine .information .phone p:nth-of-type(2) a:nth-of-type(2){display: inline-block;width:2.237498rem ;height: 0.824999rem;line-height: 0.824999rem;}
 .mine .information .phone p:nth-of-type(2) span img{width: 0.712499rem;height: 0.562499rem;}
-.mine .information .phone p:nth-of-type(2) span{margin-left: 0.3rem;margin-right: 0.3rem;}
+.mine .information .phone p:nth-of-type(2) span{padding-left: 0.3rem;padding-right: 0.3rem;}
 .mine .information .phone p:nth-of-type(3){color: #e9e3e6;}
 .mine .information .info p{color: white;height: 1.124999rem;line-height: 1.124999rem;font-size: 0.524999rem;}
-.mine .information .phone{margin-left: 1.124999rem;margin-right: 2.062497rem;}
+.mine .information .phone{margin-left: 1.124999rem;margin-right: 0.749999rem;}
 .mine .information .phone p:nth-of-type(2) a{color: white;font-size: 0.524999rem}
+.mine .information .confirm{display: flex;align-items:center;}
+.mine .information .confirm span{display: block;}
 .mine .information .confirm span img{width:0.412499rem ;height: 0.749999rem; }
-.mine .information .confirm a{font-size: 0.599999rem;margin-right: 0.412499rem;color: white;} 
+.mine .information .confirm a{font-size: 0.599999rem;margin-right: 0.412499rem;color: white;display: block;width: 3.074996rem;height: 0.674999rem;line-height: 0.674999rem;text-align: center;} 
 /*主体部分*/
 .mine .main{background: #f7f7f7;overflow: hidden;}
 .mine .main ul:nth-of-type(1){width: 100%;margin-top: 0.599999rem;background:white;display: flex;flex-direction:column;}
 .mine .main ul:nth-of-type(1) li{width: 16.574979rem;height: 3.187496rem;line-height: 3.187496rem;padding-left: 0.749999rem;}
-.mine .main ul:nth-of-type(1) a{display: flex;align-items:center;border-top: 1px solid #eeeeee;border-bottom: 1px solid #eeeeee;}
+.mine .main ul:nth-of-type(1) a:nth-of-type(1){border-top: 1px solid #eeeeee;}
+.mine .main ul:nth-of-type(1) a{display: flex;align-items:center;/*border-top: 1px solid #eeeeee;*/border-bottom: 1px solid #eeeeee;}
 .mine .main ul:nth-of-type(1) a img{width:0.375rem ;height: 0.712499rem;}
 .mine .main ul:nth-of-type(1) li{font-size: 0.674999rem;}
 
 .mine .main ul:nth-of-type(2){width: 100%;margin-top: 0.599999rem;background:white;display: flex;flex-direction:column;}
 .mine .main ul:nth-of-type(2) li{width: 16.574979rem;height: 3.187496rem;line-height: 3.187496rem;padding-left: 0.749999rem;}
-.mine .main ul:nth-of-type(2) a{display: flex;align-items:center;border-top: 1px solid #eeeeee;border-bottom: 1px solid #eeeeee;}
+.mine .main ul:nth-of-type(2) a{display: flex;align-items:center;border-bottom: 1px solid #eeeeee;}
 .mine .main ul:nth-of-type(2) a img{width:0.375rem ;height: 0.712499rem;}
 .mine .main ul:nth-of-type(2) li{font-size: 0.674999rem;}
 /*页脚部分*/

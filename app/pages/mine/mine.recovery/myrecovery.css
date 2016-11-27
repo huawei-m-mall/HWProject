@@ -1,6 +1,6 @@
 @charset "utf-8";
 /*头部*/
-.myrecovery{background: white;overflow: hidden;}
+.myrecovery{height: 100%;background: #f7f7f7;overflow: hidden;}
 .myrecovery header{width: 100%;height: 2.174997rem;background: #eeeeee;position: fixed;left: 0;top: 0;border-bottom: 1px solid #c7c7c7;} 
 .myrecovery header p{width: 100%;height: 2.174997rem;line-height: 2.174997rem;}
 .myrecovery header p span{margin-left: 0.862499rem;margin-right: 6.074992rem;}

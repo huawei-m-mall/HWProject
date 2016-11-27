@@ -27,6 +27,6 @@
 .mychit .footer p:nth-of-type(2) span{font-size: 0.674999rem;color:#888888;}
 .mychit .footer p:nth-of-type(2) span:first-of-type{color: #ca151e;}
 .mychit .footer p:nth-of-type(3){text-align: center;/*font-size: 0.674999rem;*/color:#888888;} 
-
+.mychit .footer p:nth-of-type(3) span{font-size: 0.674999rem;}
 /*页脚部分要隐藏*/
 footer{display: none;}

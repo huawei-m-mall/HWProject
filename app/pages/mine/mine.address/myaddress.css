@@ -6,10 +6,27 @@
 .myaddress header p a{font-size: 0.674999rem;}
 .myaddress header p span img{width: 0.524999rem;height:0.862499rem }
 /*主体部分*/
-.myaddress .main{background: #f7f7f7;overflow: hidden;}
-.myaddress .main>span:nth-of-type(1){margin: 5.774993rem 0 0 7.91249rem;display: block;width: 2.174997rem;height: 2.587497rem}
-.myaddress .main>span:nth-of-type(1) img{width: 2.174997rem;height: 2.587497rem}
-.myaddress .main>span:nth-of-type(2){margin: 1.499998rem 0 0 6.974991rem;font-size: 0.599999rem;display: block;color: #666666;}
-.myaddress .main>p{width: 100%;height: 1.987498rem;line-height: 1.987498rem;background: #ca151e;color: white;font-size: 0.674999rem;margin-top: 8.587489rem;text-align: center;}
+.myaddress{background: #f7f7f7;height: 100%;}
+.myaddress .main{overflow: hidden;height: 18.862476rem;min-height: 500px;}
+.myaddress .main:after{content: "";display: block;width: 100%;height: 1.987498rem;}
+.myaddress .empty>span:nth-of-type(1){margin: 40% 0 0 43%;display: block;width: 2.174997rem;height: 2.587497rem}
+.myaddress .empty>span:nth-of-type(1) img{width:100%;height: auto}
+.myaddress .empty>span:nth-of-type(2){margin: 1.499998rem 0 0 40%;font-size: 0.599999rem;display: block;color: #666666;}
+ .p{width: 100%;height: 1.987498rem;line-height: 1.987498rem;background: #ca151e;color: white;font-size: 0.674999rem;text-align: center;position: fixed;bottom: 0;left: 0;}
+
+
+/*显示收货地址信息*/
+/*.myaddress .main .own{background: white;margin-top: 0.524999rem;}*/
+.myaddress .main .own ul{padding-left: 0.674999rem;margin-top:0.524999rem;background: white}
+.myaddress .main .own ul li:nth-of-type(1){width:16.499979rem ;height:2.999996rem;border-bottom: 1px solid #f7f7f7;display: table-cell;vertical-align: middle;}
+.myaddress .main .own ul li:nth-of-type(1) p:nth-of-type(1){height: 0.899999rem;line-height: 0.899999rem}
+.myaddress .main .own ul li:nth-of-type(1) p:nth-of-type(1) span{font-size: 0.524999rem;color: #333333;font-weight: bold;}
+.myaddress .main .own ul li:nth-of-type(1) p:nth-of-type(1) span:nth-of-type(1){margin-right: 0.225rem;}
+.myaddress .main .own ul li:nth-of-type(1) p:nth-of-type(2) span{font-size: 0.524999rem;color: #888888;}
+
+.myaddress .main .own ul li:nth-of-type(2){width:16.499979rem ;height: 2.062497rem;display: flex;align-items:center;}
+.myaddress .main .own ul li:nth-of-type(2) p img{width: 0.824999rem;height:0.824999rem; }
+.myaddress .main .own ul li:nth-of-type(2) a{margin-left: 10.537487rem;margin-right: 0.749999rem;}
+.myaddress .main .own ul li:nth-of-type(2) p span{font-size: 0.599999rem;}
 /*页脚部分要隐藏*/
 footer{display: none;}
