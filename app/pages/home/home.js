@@ -1,4 +1,4 @@
-angular.module('huaweiMall.homePage',[])
+angular.module('huaweiMall.homePage',['huaweiMall.searchPage'])
 .config(function($stateProvider,$urlRouterProvider){
 	
 	$stateProvider
