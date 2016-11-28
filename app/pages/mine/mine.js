@@ -224,73 +224,119 @@ angular.module('huaweiMall.minePage',[])
 	// $(".main .in2").val(ob.in2);
 	// $(".main .in3").val(ob.in3);
 	// $(".main .in4").val(ob.in4);
-	$(".bottom .sp2").click(function(){
-		// 清除缓存
-		// localStorage.clear();
-		var addArr = JSON.parse(localStorage.getItem("Obj"));
-		if(!addArr){
-			var addArr = [];
-		}else{
-			addArr = addArr;
-		}
-		var	in1 = $(".main .in1").val();
-		var	in2 = $(".main .in2").val();
-		var	in3 = $(".main .in3").val();
-		var	in4 = $(".main .in4").val();
-		if(in1.length!=0&&in2.length!=0&&in3.length!=0&&in4.length!=0){
-			if(addArr.length==0){
-				addArr[0]={
-					in1:in1,
-					in2:in2,
-					in3:in3,
-					in4:in4
-				}
-			}
-			// 不能让同名的添加进数组里面
-			for(var i = 0;i<addArr.length;i++){
-				console.log(addArr[i]["in1"]==in1)
-				if(addArr[i]["in1"]==in1){
-					break;
-				}
-			}
 
-			// 用户名字不同的继续添加
-			if(i>=addArr.length){
-				addArr[i]={
-					in1:in1,
-					in2:in2,
-					in3:in3,
-					in4:in4
-				}
-			}
-			
-		}else{
-			alert("请完善信息");
-			return false;
-		}
-		// alert("信息添加成功");
-		localStorage.setItem("Obj",JSON.stringify(addArr));
+	// 判断localStorage里面是否有obj1，若有，将数据加载在页面上，反之保持原样
+// console.log(localStorage.getItem("obj1"))
+	if(localStorage.obj1){
+		var obj1 = JSON.parse(localStorage.getItem("obj1"));
+		var num = parseInt(obj1.num)
+		var ob = JSON.parse(localStorage.getItem("Obj"));
+		$(".main .in1").val(ob[num].in1);
+		$(".main .in2").val(ob[num].in2);
+		$(".main .in3").val(ob[num].in3);
+		$(".main .in4").val(ob[num].in4);
+		// 将localStorage里面的obj1删掉
+		// if(!obj1){
+		// 	return;
+		// }else{
+		// 	localStorage.removeItem("obj1");
+		// }
+		// dom操作,改变原来页面的应该修改的东西
+		$(".myadd header p>a").html("收货人信息");
+		$(".myadd .bottom div .sp2").html("保存");
+
+	}
 		
-		// 把地址信息添加在管理收货地址页面
-		
+			// 点击下面的确认按钮
+			$(".bottom .sp2").click(function(){
 
+				var	in1 = $(".main .in1").val();
+				var	in2 = $(".main .in2").val();
+				var	in3 = $(".main .in3").val();
+				var	in4 = $(".main .in4").val();
 
-	})
+				if(localStorage.obj1){
+					var obj1 = JSON.parse(localStorage.getItem("obj1"));
+					var num = parseInt(obj1.num)
+					var ob = JSON.parse(localStorage.getItem("Obj"));
+
+						// 修改对象里面的属性
+					if(in1.length!=0&&in2.length!=0&&in3.length!=0&&in4.length!=0){
+							console.log(1);
+							ob[num].in1 = $(".main .in1").val();
+							ob[num].in2 = $(".main .in2").val();
+							ob[num].in3 = $(".main .in3").val();
+							ob[num].in4 = $(".main .in4").val();
+							localStorage.setItem("Obj",JSON.stringify(ob));
+					}
+				}
+				
+				
+
+				
+					
+				// 清除缓存
+				// localStorage.clear();
+				var addArr = JSON.parse(localStorage.getItem("Obj"));
+				if(!addArr){
+					var addArr = [];
+				}else{
+					addArr = addArr;
+				}
+				if(in1.length!=0&&in2.length!=0&&in3.length!=0&&in4.length!=0){
+					if(addArr.length==0){
+						addArr[0]={
+							in1:in1,
+							in2:in2,
+							in3:in3,
+							in4:in4
+						}
+					}
+					// 不能让同名的添加进数组里面
+					for(var i = 0;i<addArr.length;i++){
+						console.log(addArr[i]["in1"]==in1)
+						if(addArr[i]["in1"]==in1){
+							break;
+						}
+					}
+
+					// 用户名字不同的继续添加
+					if(i>=addArr.length){
+						addArr[i]={
+							in1:in1,
+							in2:in2,
+							in3:in3,
+							in4:in4
+						}
+					}
+
+					alert("保存成功")
+					
+				}else{
+					alert("请完善信息");
+					return false;
+				}
+				// alert("信息添加成功");
+				localStorage.setItem("Obj",JSON.stringify(addArr));
+				
+				
+				localStorage.removeItem("obj1");
+			})
+	
 
 })
 
 // 管理收货地址页面
 .controller("buyaddressCtrl",function($scope){
-	// console.log(typeof localStorage)
 	// console.log(localStorage);
 	// 判断是否有添加收货地址,据此显示不同的页面
 	function loadAdd(){
-
 		if(!localStorage.Obj){
 			return;
 		}
+			// 首先清除对象里面的东西
+				// localStorage.removeItem("Obj");
 				var ob = JSON.parse(localStorage.getItem("Obj"));
-			// console.log(ob)
 			// console.log(!localStorage)
 			if(ob.length==0){
 				var obj = [];
@@ -314,25 +360,28 @@ angular.module('huaweiMall.minePage',[])
 	loadAdd();
 	// 点击新增收货地址页面
 	// 点击管理收货地址页面编辑按钮，把增加收货地址页面给替换掉
-	$(".myaddress .main .own .a").click(function(){
-			var in1 = $(this).parent().prev().children(".p1").children(".sp1").html();
-			var in2 = $(this).parent().prev().children(".p1").children(".sp2").html();
-			var in3 = $(this).parent().prev().children(".p2").children(".sp3").html();
-			var in4 = $(this).parent().prev().children(".p2").children(".sp4").html();
-			// 让增加收货地址的页面变为收货人信息
-			$(".myadd .main .in1").val(in1);
-			console.log($(".myadd .main .in1").val());
+	$(".myaddress .main .own .a").each(function(i,elem){
+		$(elem).click(function(){
+			console.log(i)
+			// 给localStorage设置个obj1的属性，属性值是一个对象，对象保存点击的下标值
+			var obj1 = {
+				num:i
+			}
+			//保存这个属性
+			localStorage.setItem("obj1",JSON.stringify(obj1)); 
+		})
 	})
 
 	// 点击删除内容
 	$(".myaddress .main .own .delete").click(function(){
 		var ob = JSON.parse(localStorage.getItem("Obj"));
 		var in1 = $(this).parent().prev().children(".p1").children(".sp1").html();
+
 		$.each(ob,function(i,elem){
 			if(in1==elem.in1){
-				
+				// console.log(i)
 				ob.splice(i,1);
-				console.log(ob);
+				return false;
 
 			}
 		})
@@ -342,6 +391,12 @@ angular.module('huaweiMall.minePage',[])
 		}else{
 			localStorage.setItem("Obj",JSON.stringify(ob));
 		}
+
+		// 判断如果里面没有的话显示空页面
+		if(ob.length==0){
+				$(".myaddress .main .empty").css("display","block");
+				$(".myaddress .main .own").css("display","none");
+			}
 		
 	})
 })

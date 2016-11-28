@@ -9,6 +9,7 @@
 .myorder header ul li{width: 4.499994rem;height: 100%;display: flex;align-items:center;justify-content:center;font-size: 0.674999rem;}
 .myorder header ul li:first-of-type{color: red;border-bottom: 1px solid red;}
 /*主体部分*/
+.myorder .main{background: #f7f7f7;height: 18.937476rem;}
 .myorder .main p{display: flex;padding: 1.762498rem 0rem 4.687494rem 4.499994rem;font-size: 0.524999rem;color: #888888;}
 /*页脚部分要隐藏*/
 footer{display: none;}
