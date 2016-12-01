@@ -38,7 +38,9 @@ angular.module('huaweiMall.cartPage',[])
 		$('.is_check').parents('li').remove();
 		if(!$('.full li').length){
 			$scope.flag=false;
-			$scope.clear();
+			
+			localStorage.removeItem('proList');
+			
 			return;
 		}
 		var data=localStorage.proList;
