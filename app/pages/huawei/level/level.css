@@ -1,0 +1,146 @@
+/*全局*/
+body,html{width: 100%;background: #f7f7f7;font-size: 0.637492rem}
+body{font-family: -apple-system-font,"Helvetica Neue","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif}
+h1,h2,h3,h4,h5,h6{font-weight: normal;}
+.download>header,.download>section,.download>div{width: 100%}
+.download{padding-top: 2.39997rem}
+/*footer隐藏*/
+footer{display: none;}
+/*头部*/
+header{height: 2.39997rem;background: #eee;position: fixed;top: 0;width: 100%}
+header a{float: left;width: 2.25rem;height: 100%;background: transparent url(../../../images/download/icon11_1.png) scroll no-repeat 50% 50%;background-size: .45rem .8rem;}
+header div{width: 40%;text-align: center;margin: 0 auto;line-height: 2.39997rem;font-size: .7rem;font-family: "宋体"}
+.level{padding-top: 2.39997rem}
+/*用户信息*/
+.userMsg{padding: .5rem .8rem;
+    position: relative;background: #fff;overflow: hidden;}
+.userMsg img{
+	border-radius: 50%;
+   	float: left;
+    width: 2rem;
+    height: 2rem;
+    vertical-align: top;
+    overflow: hidden;
+}
+.userMsg p:first-of-type{
+	font-size: .7rem;
+    color: #333;
+    vertical-align: middle;
+	padding-left: 2.6rem;
+}
+.userMsg p:last-of-type{
+	font-size: .55rem;
+    color: #bbb;
+    vertical-align: middle;
+	padding-left: 2.6rem;
+}
+.userMsg>a{
+	position: absolute;
+    top: 50%;
+    right: .6rem;
+    margin-top: -.75rem;
+    background-color: #ca151e;
+    border: 1px solid #cc0a0d;
+    color: #fff;
+    display: inline-block;
+    padding: 0 .6rem;
+    height: 1.45rem;
+    line-height: 1.25rem;
+    border-radius: .5rem;
+    text-align: center;
+    min-width: 1.8rem;
+    font-family: "宋体"
+}
+.level section{
+	height: .9rem;
+    background-color: #dcdcdc;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    font-size: 0.449994rem;
+    line-height: .9rem
+}
+.list{
+	display: flex;
+	width: 100%;
+
+}
+.list li{
+	width: 25%;
+	height: 2.174973rem;
+	line-height: 2.174973rem;
+	font-size: 0.749991rem;
+	font-weight: bold;
+	text-align: center;
+	color: #000;
+	position: relative;
+}
+.list li span{border: 1px solid #eee;border-left: none;border-bottom: none;padding: 0.287498rem;position: absolute;background: #fff;transform:rotate(-45deg);bottom: -0.264995rem;left: 45%;display: none;}
+/*.list li:first-of-type{color: #e01d20;}*/
+.level .list .on{color: #e01d20;}
+.list li .defult{display: block;}
+/*页面一*/
+.page_1{background: #fff;padding: 0.749991rem;display: none;}
+.page_1 h3{font-size: .65rem;font-weight: 700;}
+.page_1 ul{display: flex;padding: 0.374995rem;justify-content:space-around;}
+.page_1 li{text-align: center;color: #888;
+    font-size: .55rem;
+    text-align: center;}
+.page_1 ul img{width: 1.987475rem;height: 1.987475rem}
+.box{border-top: 1px solid #eee;/*border-left: none;border-right: none;*/}
+.vip_rule p{font-size: .6rem;text-indent: 2em}
+.page_1>img{width: 102%;margin: 0 auto}
+/*页面二*/
+.page_2{background: #fff;display: none;}
+.page_2 li{padding: 0.562493rem 0;margin: 0 0.562493rem;border-bottom: 1px solid #eee;height: 3.18746rem;background: #fff;font-family: "宋体"}
+.page_2 li img{float: left; width: 1.987475rem;margin-right: 0.749991rem}
+.page_2 li p{    font-size: .5rem;
+    color: #888;margin-top: 0.187498rem}
+/*页面三*/
+.page_3{background: #fff;padding: 0.749991rem;display: none;}
+.page_3 h2{font-size: 0.749989rem;font-weight: bold;padding: 0.562493rem 0}
+.page_3>div{border-radius: .824986rem;background: #eee;padding: 0.562493rem;color: #888}
+.page_3 p{background: url(../../../images/level/icon54.png)no-repeat;height: 2.1rem;background-size: 2.5rem;font-size: .8rem;
+    padding: .6rem 0 0 2.5rem;color: #000}
+.page_3 p:last-of-type{background:url(../../../images/level/icon54.png)no-repeat .2rem -2.374977rem;background-size: 2.5rem;}
+/*页面4*/
+.page_4{padding: 1.874977rem;text-align: center;color: #888;font-size: 0.599993rem;background: #fff;display: none;}
+/*四个页面控制*/
+.showPage{display: block;}
+
+/*页脚信息*/
+.bottomMsg{position: relative;bottom: 0;z-index: 19;width: 100%;padding: .9rem 0;background-color: #fff;/*margin-top: .4rem;*/}
+.bottomMsg p{text-align: center;padding: 0;line-height: .5;}
+.bottomMsg p a{font-size: .5rem;display: inline-block;
+    padding: .3rem 1.2rem;
+    font-size: .65rem;
+    color: #888;}
+.bottomMsg .p-login{width: 75%;margin: 0 auto;}
+.bottomMsg .touch{padding: .5rem 0;}
+.bottomMsg .touch a{border-left: 1px solid #888}
+.bottomMsg .touch a:first-of-type{color: #ca151e;border-left: none;}
+.bottomMsg .copyright{font-size: .5rem;line-height: 1.5;color: #888;}
+.huawei .toTop{display: inline-block;border-radius: 50%;width: 1.95rem;height: 1.95rem;background: url(../../../images/download/top.png);background-color: rgba(0,0,0,.3);background-position: 0 0;background-size: 100% 100%;position: fixed;z-index: 103;bottom: 2.9rem;right: .5rem}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

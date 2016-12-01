@@ -1,0 +1,173 @@
+/*全局*/
+body,html{width: 100%;background: #f7f7f7;}
+/*body{padding-bottom: 2.474997rem}*/
+h1,h2,h3,h4,h5,h6{font-weight: normal;}
+.search>header,.search>section,.search>div{width: 100%}
+.search{padding: 2.4rem 0 .5rem 0}
+
+
+/*头部*/
+header{
+	background-color: #eee;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    max-width: 720px;
+    margin: 0 auto;
+    z-index: 100;
+    /*border-bottom: 1px solid #c7c7c7;*/
+    height:2.449979rem
+}
+header .backBtn{
+	padding: 0.374995rem;
+	position: absolute;
+    left: 0;
+    top: 0;
+    width: 2.25rem;
+    height: 100%;
+    background: transparent url(../../images/search/icon11_1.png) scroll no-repeat 50% 50%;
+    background-size: .45rem .8rem;
+}
+header input{
+	font-size: .65rem;
+    height: 1.6rem;
+    text-align: left;
+    border-radius: 1.07rem;
+    -webkit-border-radius: 1.07rem;
+    background-color: #f7f7f7;
+  	border: none;
+	margin:0.374995rem 0 0 2.499981rem;
+	width: 72%;
+	padding: 0 0.562493rem
+}
+header span{
+	display: block;
+    height: 1.4rem;
+    width: 1.4rem;
+    position: absolute;
+    top: 45%;
+    margin-top: -0.6rem;
+    right: 3rem;
+    background: url(../../images/search/icon-clear.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+header .searchBtn{
+	display: inline-block;
+	padding: .562493rem;
+	background: transparent url(../../images/search/icon_search.png) scroll no-repeat;
+	background-size: 1.2rem;
+	vertical-align: -0.474995rem;
+	margin-left: 0.462493rem
+}
+
+/*搜索选项*/
+.search_page{
+	padding: 0.762493rem;
+}
+.search_page h3{
+	font-size: .65rem;
+    color: #333;
+}
+.search_page ul{
+	display: flex;
+	width: 100%;
+	flex-wrap:wrap;
+	margin-top: 0.749991rem
+}
+.search_page ul li{
+	width: 33.33%;
+	height: 2.17498rem;
+	line-height: 2.17498rem;
+	color:#28c0c6;
+	text-align: center;	
+	font-size: .7rem;
+}
+
+/*商品列表*/
+/*排序栏*/
+#sortNew{width: 100%;height: 2.099997rem;background: #eeeeee;border-bottom: 1px solid #c7c7c7;display: flex;justify-content: space-around;position: fixed;left:0;top:2.399997rem;align-items: center;z-index: 1;display: flex;}
+#sortNew a{font-size: 0.599999rem;color: #333;width: 25%;text-align: center;height: 100%;line-height: 2.062474rem}
+#sortNew .checked{border-bottom: 2px solid #ca151e;color: #ca151e}
+.sortPage>p a span {
+	display: inline-block;
+	width: 0.65rem;
+	height: 0.85rem;
+	position: relative;
+	left: 0.3rem;
+	bottom: 0.05rem;
+	vertical-align: middle;
+	background: url(http://res8.vmallres.com/nwap/20161027/images/echannelWap/icon/ranks.png) no-repeat scroll center center;
+	background-size: 0.5rem 0.65rem;
+}
+#sortNew .priceUp{background: url(http://res8.vmallres.com/nwap/20161027/images/echannelWap/icon/rankUp.png) no-repeat scroll center center;background-size: 0.5rem 0.65rem;}
+/*商品*/
+#showPhone{width: 100%;margin-top: 2.112495rem;background: #fff;}
+#showPhone dl{display: flex;height: 5.399993rem;width: 100%;border-bottom: 1px solid #eeeeee;padding-left: 0.674999rem;}
+#showPhone dl dt{position: relative;}
+#showPhone dl dt .img{width: 3.974995rem;height: 3.974995rem;margin-top: 0.749999rem;}
+#showPhone dl dt .imges{width: 1.199999rem;height:1.199999rem;position: absolute;/*left: 0.524999rem;*/top:0.375rem;}
+#showPhone dl div dd:first-of-type{width: 11.437486rem;font-size: 0.749999rem;color:#333;margin-top: 0.375rem;margin-left: 0.375rem;}
+#showPhone dl div dd:nth-of-type(2){margin-top: 0.1875rem;margin-left: 0.375rem;color: #8888b8;font-size: 0.599999rem;}
+#showPhone dl div{position: relative;}
+#showPhone dl div dd:last-of-type{margin-top: 1.949999rem;margin-left: 0.375rem;color: #ca151e;font-size: 0.599999rem;position: absolute;bottom: 0}
+#showPhone a:last-of-type dl{border-bottom: none;}
+
+/*搜索无结果*/
+.no_res{
+    width: 100%;
+    height: 15.749766rem;
+    padding: 0.749991rem;
+    text-align: center;
+    font-size: .65rem;
+    color: #bbb;
+    position: relative;
+    box-sizing:border-box;
+    /*开关*/
+    display: none;
+}
+.no_res p{
+    /*display: inline-block;*/
+    position: absolute;
+    bottom: 1.874977rem;
+    width: 90%;
+}
+.no_res span{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 3.749953rem;
+    height: 3.749953rem;
+    margin: auto;
+    background: url(../../images/search/footer_icon.png) no-repeat 0rem -3.6rem;
+    background-size: 3.749766rem;
+}
+
+
+/*三个开关*/
+/*.search_page{display: none;}*/
+.sortPage{display: none;}
+.no_res{display: none;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

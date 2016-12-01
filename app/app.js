@@ -7,6 +7,7 @@ angular.module('huaweiMall',['ui.router',
 'huaweiMall.sortPage',
 'huaweiMall.cartPage',
 'huaweiMall.productDetails',
+'huaweiMall.searchPage',
 "me-lazyimg"
 ])
 

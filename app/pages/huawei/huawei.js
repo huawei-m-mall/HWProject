@@ -47,20 +47,21 @@ angular.module('huaweiMall.huaweiPage',[])
 	.state({
 		name:'level',
 		url:'/mine/level',
-		css:'app/pages/mine/level/level.css',
-		templateUrl:'app/pages/mine/level/level.html',
+		css:'app/pages/huawei/level/level.css',
+		templateUrl:'app/pages/huawei/level/level.html',
 		controller:function(){
 			// 点击切换
 			pageChange() ;
 			function pageChange(){
 				$(".list li").click(function(){
 					// 页面显示
-					$(".mypage").removeClass("showPage");
+					$(".myPage").removeClass("showPage");
 					var index = $(this).index();
-					$(".mypage").eq(index).addClass("showPage");
+					$(".myPage").eq(index).addClass("showPage");
 					// 小三角显示
 					$(".list span").removeClass();
-					$(this).children("span").addClass("defult") ;
+					$(this).children("span").addClass("defult");
+					$(this).addClass("on").siblings().removeClass("on");
 				})
 			}
 			// 左上角返回按钮
@@ -82,7 +83,7 @@ angular.module('huaweiMall.huaweiPage',[])
 			dataLoad() ;
 			function dataLoad(){
 				$.get("app/pages/home/home.json",function(req){
-					console.log(req);
+//					console.log(req);
 					load(".phone","精品推荐");
 					load(".pad","智能穿戴");
 					load(".parts","品牌配件");

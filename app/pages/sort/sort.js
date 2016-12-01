@@ -122,6 +122,18 @@ angular.module('huaweiMall.sortPage',[])
 	
 	})
 	
+	//初始化页面商品数量
+	function loadHistory(){
+		if(localStorage.proList){
+			$scope.data=JSON.parse(localStorage.proList);
+			$scope.cnt=$scope.data[0].num;
+		}else{
+			$scope.cnt=0;
+		}
+	}
+	
+	loadHistory();
+	
 })
 
 .controller("phoneCtrl",function(){
@@ -142,16 +154,25 @@ angular.module('huaweiMall.sortPage',[])
 				$(this).addClass("checked");
 				//内容重新排序
 				if(this.innerText=="人气"){
+					$(".sortPage>p a span").removeClass("priceUp");
+
+					a = false;
 					resort("moods");
 				}
 				else if(this.innerText=="价格"){
 					resort("price");
-					a = 1; 
+					a = true; 
 				}
 				else if(this.innerText=="评价数"){
+					$(".sortPage>p a span").removeClass("priceUp");
+
+					a = false;
 					resort("assess");
 				}
 				else{
+					$(".sortPage>p a span").removeClass("priceUp");
+
+					a = false;
 					reLoad(init);
 				}
 			})
@@ -159,13 +180,13 @@ angular.module('huaweiMall.sortPage',[])
 		//将数据重新排序的方法
 		var n = 180;
 		function resort(attr){
-			if(a==1){
-				res.phone.reverse();
-				$(".checked").children("span").css("transform","rotate("+ n +"deg)")
+			if(a==true){
+				console.log(123)
 				n += 180 ;
+				res.phone.reverse();
 			}
 			else{
-				$(".checked").children("span").addClass("priceUp")
+				$(".checked").children("span").addClass("priceUp");
 				for (var i = 0; i < res.phone.length; i++) {
 					for (var j = i+1; j < res.phone.length; j++) {
 						if(parseInt(res.phone[i][attr])<parseInt(res.phone[j][attr])){
@@ -176,6 +197,7 @@ angular.module('huaweiMall.sortPage',[])
 					 }; 
 				};
 			}
+			$(".checked").children("span").css("transform","rotate("+ n +"deg)");//价格的起始状态为 红色向下
 			reLoad(res.phone);//重新排序后填充置页面
 		}
 		reLoad(res.phone);//初次进入该页面时把数据填充置页面
@@ -214,16 +236,19 @@ angular.module('huaweiMall.sortPage',[])
 				$(this).addClass("checked");
 				//内容重新排序
 				if(this.innerText=="人气"){
+					a = false;
 					resort("moods");
 				}
 				else if(this.innerText=="价格"){
 					resort("price");
-					a = 1; 
+					a = true; 
 				}
 				else if(this.innerText=="评价数"){
+					a = false;
 					resort("assess");
 				}
 				else{
+					a = false;
 					reLoad(init);
 				}
 			})
@@ -366,16 +391,19 @@ angular.module('huaweiMall.sortPage',[])
 				$(this).addClass("checked");
 				//内容重新排序
 				if(this.innerText=="人气"){
+					a = false;
 					resort("moods");
 				}
 				else if(this.innerText=="价格"){
 					resort("price");
-					a = 1; 
+					a = true; 
 				}
 				else if(this.innerText=="评价数"){
+					a = false;
 					resort("assess");
 				}
 				else{
+					a = false;
 					reLoad(init);
 				}
 			})
@@ -437,16 +465,19 @@ angular.module('huaweiMall.sortPage',[])
 				$(this).addClass("checked");
 				//内容重新排序
 				if(this.innerText=="人气"){
+					a = false;
 					resort("moods");
 				}
 				else if(this.innerText=="价格"){
 					resort("price");
-					a = 1; 
+					a = true; 
 				}
 				else if(this.innerText=="评价数"){
+					a = false;
 					resort("assess");
 				}
 				else{
+					a = false;
 					reLoad(init);
 				}
 			})
@@ -509,16 +540,19 @@ angular.module('huaweiMall.sortPage',[])
 				$(this).addClass("checked");
 				//内容重新排序
 				if(this.innerText=="人气"){
+					a = false;
 					resort("moods");
 				}
 				else if(this.innerText=="价格"){
 					resort("price");
-					a = 1; 
+					a = true; 
 				}
 				else if(this.innerText=="评价数"){
+					a = false;
 					resort("assess");
 				}
 				else{
+					a = false;
 					reLoad(init);
 				}
 			})
@@ -562,6 +596,7 @@ angular.module('huaweiMall.sortPage',[])
 	
 })
 
+
 //封装服务 （滚动条）
 
 .service('scroll',function(){
@@ -577,3 +612,4 @@ angular.module('huaweiMall.sortPage',[])
 		},0);
    }
 })
+

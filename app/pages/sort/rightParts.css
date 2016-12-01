@@ -1,0 +1,4 @@
+.sort #productList #rightSort{width: 12.074985rem;background: #efefef;position: fixed;top: 2.399997rem;left: 5.924993rem;overflow-y:auto;padding-bottom: 2.5rem;}
+.sort #productList #rightSort dl{display: flex;align-items: center;border-bottom: 1px solid #e1e1e1;height: 4.274995rem;}
+.sort #productList #rightSort dl dt img{width: 3.412496rem;height: 3.412496rem;}
+.sort #productList #rightSort dl dd{font-size: 0.749999rem;color: #333;}

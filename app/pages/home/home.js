@@ -41,7 +41,7 @@ angular.module('huaweiMall.homePage',[])
 		css:'app/pages/home/old_to_new/old_to_new.css',
 		templateUrl:'app/pages/home/old_to_new/old_to_new.html'
 	})
-
+	
 })
 .controller('homeCtrl',function($scope,$timeout){
 
@@ -99,7 +99,7 @@ angular.module('huaweiMall.homePage',[])
 				}else{
 					str+="<p class='common-img'>"
 				}
-				str+="<img lazy-src='"+el.img+"'/>"
+				str+="<img class='lazy' src='"+el.img+"'/>"
 				if(el.tag!=""){
 					str+="<i class='icon-tag'><img src='"+el.tag+"'/></i>"
 				}
@@ -112,8 +112,7 @@ angular.module('huaweiMall.homePage',[])
 			})
 			
 				$(str).appendTo($(".main"));
-			
-			
+				
 		})
 		
 	})

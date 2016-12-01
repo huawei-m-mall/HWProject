@@ -109,7 +109,6 @@ angular.module('me-lazyimg', [])
 ])
 .directive('lazySrc', [
   function(){
-
     return {
       restrict: 'A',
       require: '^lazyContainer',
@@ -119,8 +118,9 @@ angular.module('me-lazyimg', [])
         animateSpeed: '@'
       },
       link: function(iScope, iElement, iAttrs, containerCtrl){
-        containerCtrl.addImg(iScope, iElement, iAttrs);
-
+      	
+       	 	containerCtrl.addImg(iScope, iElement, iAttrs);
+				
       }
     };
 
